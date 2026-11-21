@@ -15,7 +15,7 @@ export function FootballPitch({ formation }: FootballPitchProps) {
         <div className="pointer-events-none absolute left-1/2 top-1/2 h-24 w-24 -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/40" />
 
         {/* Área de escalação: posições organizadas por setor */}
-        <div className="relative z-10 flex min-h-[620px] flex-col justify-around gap-6 px-2 py-8 sm:px-6">
+        <div className="relative z-10 flex min-h-155 flex-col justify-around gap-6 px-2 py-8 sm:px-6">
           {formation.lines.map((line, lineIndex) => (
             <div
               key={`${formation.id}-${lineIndex}`}
