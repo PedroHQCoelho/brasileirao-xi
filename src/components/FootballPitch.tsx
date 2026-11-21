@@ -1,3 +1,4 @@
+import { positions } from "../data/positions";
 import type { Formation } from "../data/formations";
 
 interface FootballPitchProps {
@@ -5,6 +6,16 @@ interface FootballPitchProps {
 }
 
 export function FootballPitch({ formation }: FootballPitchProps) {
+  /**
+   * Converte o código interno da posição para sua abreviação em português.
+   * Exemplo: LW -> PE, CB -> ZAG e ST -> ATA.
+  */
+  const getPositionAbbreviation = (code: string) => {
+    const position = positions.find((item) => item.code === code);
+
+    // Caso o código não seja encontrado, mantém o valor original.
+    return position?.abbreviation ?? code;
+  };
   return (
     <div className="rounded-2xl border border-green-200 bg-green-800 p-3 shadow-lg dark:border-green-900 dark:bg-green-950 sm:p-5">
       {/* Campo com marcações tradicionais de futebol */}
@@ -28,7 +39,7 @@ export function FootballPitch({ formation }: FootballPitchProps) {
                 >
                   {/* Representa uma posição ainda sem jogador */}
                   <div className="flex h-12 w-12 items-center justify-center rounded-full border-2 border-dashed border-white/80 bg-white/90 text-xs font-extrabold text-green-900 shadow-md sm:h-14 sm:w-14 sm:text-sm">
-                    {position}
+                    {getPositionAbbreviation(position)}
                   </div>
 
                   <span className="text-center text-[10px] font-medium text-white sm:text-xs">
