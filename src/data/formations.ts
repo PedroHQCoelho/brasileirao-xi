@@ -1,74 +1,163 @@
 import type { PositionCode } from "./positions";
 
 /**
- * Representa uma formação tática disponível no Brasileirão XI.
- * Cada linha contém posições específicas, organizadas do ataque à defesa.
+ * Cada espaço da formação possui uma posição visual
+ * e uma lista de posições aceitas pelo sistema.
+ */
+export interface FormationSlot {
+  label: string;
+  acceptedPositions: PositionCode[];
+}
+
+/**
+ * Representa uma formação tática.
  */
 export interface Formation {
   id: string;
   name: string;
-  lines: PositionCode[][];
+  lines: FormationSlot[][];
 }
 
+const slot = (
+  label: string,
+  ...acceptedPositions: PositionCode[]
+): FormationSlot => ({
+  label,
+  acceptedPositions,
+});
+
 /**
- * Formações disponíveis para montar uma escalação.
- * O goleiro é tratado separadamente e permanece fixo no campo.
+ * Formações disponíveis no Brasileirão XI.
  */
 export const formations: Formation[] = [
   {
     id: "4-3-3",
     name: "4-3-3",
     lines: [
-      ["LW", "ST", "RW"],
-      ["CM", "CM", "CM"],
-      ["LB", "CB", "CB", "RB"],
+      [
+        slot("PE", "LW"),
+        slot("ATA", "ST"),
+        slot("PD", "RW"),
+      ],
+      [
+        slot("MEI", "DM", "CM", "AM"),
+        slot("MEI", "DM", "CM", "AM"),
+        slot("MEI", "DM", "CM", "AM"),
+      ],
+      [
+        slot("LE", "LB"),
+        slot("ZAG", "CB"),
+        slot("ZAG", "CB"),
+        slot("LD", "RB"),
+      ],
     ],
   },
   {
     id: "4-4-2",
     name: "4-4-2",
     lines: [
-      ["ST", "ST"],
-      ["LW", "CM", "CM", "RW"],
-      ["LB", "CB", "CB", "RB"],
+      [
+        slot("ATA", "ST"),
+        slot("ATA", "ST"),
+      ],
+      [
+        slot("MEI", "DM", "CM", "AM"),
+        slot("MEI", "DM", "CM", "AM"),
+        slot("MEI", "DM", "CM", "AM"),
+        slot("MEI", "DM", "CM", "AM"),
+      ],
+      [
+        slot("LE", "LB"),
+        slot("ZAG", "CB"),
+        slot("ZAG", "CB"),
+        slot("LD", "RB"),
+      ],
     ],
   },
   {
     id: "4-2-3-1",
     name: "4-2-3-1",
     lines: [
-      ["ST"],
-      ["LW", "AM", "RW"],
-      ["DM", "DM"],
-      ["LB", "CB", "CB", "RB"],
+      [slot("ATA", "ST")],
+      [
+        slot("PE", "LW"),
+        slot("MEI", "AM", "CM"),
+        slot("PD", "RW"),
+      ],
+      [
+        slot("VOL", "DM", "CM"),
+        slot("VOL", "DM", "CM"),
+      ],
+      [
+        slot("LE", "LB"),
+        slot("ZAG", "CB"),
+        slot("ZAG", "CB"),
+        slot("LD", "RB"),
+      ],
     ],
   },
   {
     id: "3-5-2",
     name: "3-5-2",
     lines: [
-      ["ST", "ST"],
-      ["LWB", "CM", "DM", "CM", "RWB"],
-      ["CB", "CB", "CB"],
+      [
+        slot("ATA", "ST"),
+        slot("ATA", "ST"),
+      ],
+      [
+        slot("AE", "LWB"),
+        slot("MEI", "DM", "CM", "AM"),
+        slot("VOL", "DM", "CM"),
+        slot("MEI", "DM", "CM", "AM"),
+        slot("AD", "RWB"),
+      ],
+      [
+        slot("ZAG", "CB"),
+        slot("ZAG", "CB"),
+        slot("ZAG", "CB"),
+      ],
     ],
   },
   {
     id: "4-1-4-1",
     name: "4-1-4-1",
     lines: [
-      ["ST"],
-      ["LW", "CM", "CM", "RW"],
-      ["DM"],
-      ["LB", "CB", "CB", "RB"],
+      [slot("ATA", "ST")],
+      [
+        slot("PE", "LW"),
+        slot("MEI", "CM", "AM"),
+        slot("MEI", "CM", "AM"),
+        slot("PD", "RW"),
+      ],
+      [slot("VOL", "DM", "CM")],
+      [
+        slot("LE", "LB"),
+        slot("ZAG", "CB"),
+        slot("ZAG", "CB"),
+        slot("LD", "RB"),
+      ],
     ],
   },
   {
     id: "3-4-3",
     name: "3-4-3",
     lines: [
-      ["LW", "ST", "RW"],
-      ["LWB", "CM", "CM", "RWB"],
-      ["CB", "CB", "CB"],
+      [
+        slot("PE", "LW"),
+        slot("ATA", "ST"),
+        slot("PD", "RW"),
+      ],
+      [
+        slot("AE", "LWB"),
+        slot("MEI", "DM", "CM", "AM"),
+        slot("MEI", "DM", "CM", "AM"),
+        slot("AD", "RWB"),
+      ],
+      [
+        slot("ZAG", "CB"),
+        slot("ZAG", "CB"),
+        slot("ZAG", "CB"),
+      ],
     ],
   },
 ];
