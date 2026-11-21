@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+/* Configura o Tailwind para utilizar a classe .dark como referência do tema. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Configurações globais da aplicação */
+:root {
+  font-family: Inter, system-ui, sans-serif;
+  color: #17251c;
+  background: #f5f8f5;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Garante um dimensionamento consistente dos elementos */
+* {
+  box-sizing: border-box;
+}
+
+/* Remove margens padrão e evita rolagem horizontal */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Mantém os links sem decoração padrão */
+a {
+  text-decoration: none;
+}
+
+/* Aplica a cor de fundo e a transição global dos temas */
+body {
+  @apply bg-[#f5f8f5] text-[#17251c] transition-colors duration-300;
+}
+
+.dark body {
+  @apply bg-gray-950 text-gray-100;
+}
