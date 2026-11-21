@@ -27,6 +27,12 @@ const slot = (
 });
 
 /**
+ * Vaga fixa do goleiro.
+ * Ela é independente da formação escolhida e completa os 11 titulares.
+ */
+export const goalkeeperSlot: FormationSlot = slot("GOL", "GK");
+
+/**
  * Formações disponíveis no Brasileirão XI.
  */
 export const formations: Formation[] = [
