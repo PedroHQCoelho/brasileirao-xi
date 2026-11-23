@@ -110,8 +110,29 @@ export function PlayerSelector({
                   onClick={() => onSelect(player)}
                   className="flex w-full items-center gap-3 rounded-xl border border-gray-200 p-3 text-left transition hover:border-green-500 hover:bg-green-50 dark:border-gray-700 dark:hover:bg-green-950/40"
                 >
-                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200">
-                    <ShieldCheck size={23} />
+                  {/* Foto do jogador e escudo do clube. */}
+                  <div className="relative h-12 w-12 shrink-0">
+                    <div className="flex h-full w-full items-center justify-center overflow-hidden rounded-full bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200">
+                      {player.photo ? (
+                        <img
+                          src={player.photo}
+                          alt={player.name}
+                          className="h-full w-full object-cover"
+                        />
+                      ) : (
+                        <ShieldCheck size={23} />
+                      )}
+                    </div>
+
+                    {player.clubCrest && (
+                      <div className="absolute -bottom-1 -right-1 flex h-5 w-5 items-center justify-center overflow-hidden rounded-full border-2 border-white bg-white shadow-sm">
+                        <img
+                          src={player.clubCrest}
+                          alt={`Escudo do ${player.club}`}
+                          className="h-full w-full object-contain"
+                        />
+                      </div>
+                    )}
                   </div>
 
                   <div className="min-w-0 flex-1">

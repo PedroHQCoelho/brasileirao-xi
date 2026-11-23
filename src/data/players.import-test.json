@@ -1,0 +1,3485 @@
+[
+  {
+    "id": 14580411,
+    "name": "Ademir Santos",
+    "club": "Bahia",
+    "clubs": [
+      "Bahia"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/14580411.png",
+    "positions": [
+      "RW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/757657019.png"
+  },
+  {
+    "id": 1861811893,
+    "name": "Agustín Giay",
+    "club": "Palmeiras",
+    "clubs": [
+      "Palmeiras"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1861811893.png",
+    "positions": [
+      "RB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/955320104.png"
+  },
+  {
+    "id": 1433547931,
+    "name": "Agustin Rossi",
+    "club": "Flamengo",
+    "clubs": [
+      "Flamengo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1433547931.png",
+    "positions": [
+      "GK"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/52227321.png"
+  },
+  {
+    "id": 804900187,
+    "name": "Agustín Sant'Anna",
+    "club": "RB Bragantino",
+    "clubs": [
+      "RB Bragantino"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/804900187.png",
+    "positions": [
+      "RB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1851087376.png"
+  },
+  {
+    "id": 1765539578,
+    "name": "Aitor Cantalapiedra",
+    "club": "Vitoria",
+    "clubs": [
+      "Vitoria"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1765539578.png",
+    "positions": [
+      "AM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/595133378.png"
+  },
+  {
+    "id": 1545128497,
+    "name": "Alan Franco",
+    "club": "Atlético Mineiro",
+    "clubs": [
+      "Atlético Mineiro"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1545128497.png",
+    "positions": [
+      "CM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1439866986.png"
+  },
+  {
+    "id": 1358891089,
+    "name": "Alan Lescano",
+    "club": "Vasco da Gama",
+    "clubs": [
+      "Vasco da Gama"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1358891089.png",
+    "positions": [
+      "AM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1060091761.png"
+  },
+  {
+    "id": 1808931287,
+    "name": "Alan Minda",
+    "club": "Atlético Mineiro",
+    "clubs": [
+      "Atlético Mineiro"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1808931287.png",
+    "positions": [
+      "RW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1439866986.png"
+  },
+  {
+    "id": 998242992,
+    "name": "Alan Patrick",
+    "club": "Internacional",
+    "clubs": [
+      "Internacional"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/998242992.png",
+    "positions": [
+      "AM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1620298864.png"
+  },
+  {
+    "id": 817494452,
+    "name": "Alan Saldivia",
+    "club": "Vasco da Gama",
+    "clubs": [
+      "Vasco da Gama"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/817494452.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1060091761.png"
+  },
+  {
+    "id": 1186473609,
+    "name": "Aldo Filho",
+    "club": "Mirassol",
+    "clubs": [
+      "Mirassol"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1186473609.png",
+    "positions": [
+      "CM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1010303913.png"
+  },
+  {
+    "id": 621100585,
+    "name": "Alerrandro",
+    "club": "Internacional",
+    "clubs": [
+      "Internacional"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/621100585.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1620298864.png"
+  },
+  {
+    "id": 1929553728,
+    "name": "Alesson",
+    "club": "Mirassol",
+    "clubs": [
+      "Mirassol"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1929553728.png",
+    "positions": [
+      "LW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1010303913.png"
+  },
+  {
+    "id": 2062725882,
+    "name": "Alex Bruno",
+    "club": "Vitoria",
+    "clubs": [
+      "Vitoria"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/2062725882.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/595133378.png"
+  },
+  {
+    "id": 1778093918,
+    "name": "Alex Sandro",
+    "club": "Flamengo",
+    "clubs": [
+      "Flamengo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1778093918.png",
+    "positions": [
+      "LB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/52227321.png"
+  },
+  {
+    "id": 1222756643,
+    "name": "Alex Telles",
+    "club": "Botafogo",
+    "clubs": [
+      "Botafogo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1222756643.png",
+    "positions": [
+      "LB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/733567445.png"
+  },
+  {
+    "id": 531637655,
+    "name": "Alexandro Bernabei",
+    "club": "Internacional",
+    "clubs": [
+      "Internacional"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/531637655.png",
+    "positions": [
+      "LB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1620298864.png"
+  },
+  {
+    "id": 1635544413,
+    "name": "Alexsander",
+    "club": "Atlético Mineiro",
+    "clubs": [
+      "Atlético Mineiro"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1635544413.png",
+    "positions": [
+      "DM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1439866986.png"
+  },
+  {
+    "id": 1893253132,
+    "name": "Alix Vinicius",
+    "club": "RB Bragantino",
+    "clubs": [
+      "RB Bragantino"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1893253132.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1851087376.png"
+  },
+  {
+    "id": 1026541130,
+    "name": "Allan",
+    "club": "Botafogo",
+    "clubs": [
+      "Botafogo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1026541130.png",
+    "positions": [
+      "DM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/733567445.png"
+  },
+  {
+    "id": 408569740,
+    "name": "Allan Elias",
+    "club": "Palmeiras",
+    "clubs": [
+      "Palmeiras"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/408569740.png",
+    "positions": [
+      "RW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/955320104.png"
+  },
+  {
+    "id": 604274928,
+    "name": "Allan Souza",
+    "club": "Corinthians",
+    "clubs": [
+      "Corinthians"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/604274928.png",
+    "positions": [],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1072776343.png"
+  },
+  {
+    "id": 11236618,
+    "name": "Allex",
+    "club": "Internacional",
+    "clubs": [
+      "Internacional"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/11236618.png",
+    "positions": [
+      "AM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1620298864.png"
+  },
+  {
+    "id": 1218020871,
+    "name": "Álvaro Montoro",
+    "club": "Botafogo",
+    "clubs": [
+      "Botafogo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1218020871.png",
+    "positions": [
+      "LW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/733567445.png"
+  },
+  {
+    "id": 1153371594,
+    "name": "André Luis",
+    "club": "Mirassol",
+    "clubs": [
+      "Mirassol"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1153371594.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1010303913.png"
+  },
+  {
+    "id": 1422189451,
+    "name": "André Luiz",
+    "club": "Corinthians",
+    "clubs": [
+      "Corinthians"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1422189451.png",
+    "positions": [
+      "CM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1072776343.png"
+  },
+  {
+    "id": 1491728031,
+    "name": "Andre Ramalho",
+    "club": "Corinthians",
+    "clubs": [
+      "Corinthians"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1491728031.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1072776343.png"
+  },
+  {
+    "id": 472921825,
+    "name": "André Silva",
+    "club": "São Paulo",
+    "clubs": [
+      "São Paulo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/472921825.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/415137267.png"
+  },
+  {
+    "id": 1791928312,
+    "name": "Andreas Pereira",
+    "club": "Palmeiras",
+    "clubs": [
+      "Palmeiras"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1791928312.png",
+    "positions": [
+      "AM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/955320104.png"
+  },
+  {
+    "id": 1940265356,
+    "name": "Andres Gomez",
+    "club": "Vasco da Gama",
+    "clubs": [
+      "Vasco da Gama"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1940265356.png",
+    "positions": [
+      "LW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1060091761.png"
+  },
+  {
+    "id": 152073770,
+    "name": "Angelo Preciado",
+    "club": "Atlético Mineiro",
+    "clubs": [
+      "Atlético Mineiro"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/152073770.png",
+    "positions": [
+      "RB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1439866986.png"
+  },
+  {
+    "id": 1099389047,
+    "name": "Anthoni Souza",
+    "club": "Internacional",
+    "clubs": [
+      "Internacional"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1099389047.png",
+    "positions": [
+      "GK"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1620298864.png"
+  },
+  {
+    "id": 1009522671,
+    "name": "Antonio Galeano",
+    "club": "Remo",
+    "clubs": [
+      "Mirassol",
+      "Remo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1009522671.png",
+    "positions": [
+      "RW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/2015819585.png"
+  },
+  {
+    "id": 1749405424,
+    "name": "Arthur Cabral",
+    "club": "Botafogo",
+    "clubs": [
+      "Botafogo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1749405424.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/733567445.png"
+  },
+  {
+    "id": 1755961155,
+    "name": "Arthur Dias",
+    "club": "Athletico Paranaense",
+    "clubs": [
+      "Athletico Paranaense"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1755961155.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1945198973.png"
+  },
+  {
+    "id": 517518150,
+    "name": "Arthur Gabriel",
+    "club": "Palmeiras",
+    "clubs": [
+      "Palmeiras"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/517518150.png",
+    "positions": [
+      "LB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/955320104.png"
+  },
+  {
+    "id": 726754653,
+    "name": "Artur",
+    "club": "São Paulo",
+    "clubs": [
+      "São Paulo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/726754653.png",
+    "positions": [
+      "RW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/415137267.png"
+  },
+  {
+    "id": 1035934452,
+    "name": "Ayrton Lucas",
+    "club": "Flamengo",
+    "clubs": [
+      "Flamengo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1035934452.png",
+    "positions": [
+      "LB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/52227321.png"
+  },
+  {
+    "id": 316742217,
+    "name": "Bastos",
+    "club": "Botafogo",
+    "clubs": [
+      "Botafogo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/316742217.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/733567445.png"
+  },
+  {
+    "id": 414031180,
+    "name": "Benjamín Rollheiser",
+    "club": "Santos",
+    "clubs": [
+      "Santos"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/414031180.png",
+    "positions": [
+      "RW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1085681166.png"
+  },
+  {
+    "id": 433593620,
+    "name": "Bernard",
+    "club": "Atlético Mineiro",
+    "clubs": [
+      "Atlético Mineiro"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/433593620.png",
+    "positions": [
+      "LW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1439866986.png"
+  },
+  {
+    "id": 1232954072,
+    "name": "Brenner",
+    "club": "Vasco da Gama",
+    "clubs": [
+      "Vasco da Gama"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1232954072.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1060091761.png"
+  },
+  {
+    "id": 1219273319,
+    "name": "Breno Bidon",
+    "club": "Corinthians",
+    "clubs": [
+      "Corinthians"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1219273319.png",
+    "positions": [
+      "CM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1072776343.png"
+  },
+  {
+    "id": 1649904616,
+    "name": "Bruno Duarte",
+    "club": "Vasco da Gama",
+    "clubs": [
+      "Vasco da Gama"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1649904616.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1060091761.png"
+  },
+  {
+    "id": 182428462,
+    "name": "Bruno Gomes",
+    "club": "Internacional",
+    "clubs": [
+      "Internacional"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/182428462.png",
+    "positions": [
+      "RB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1620298864.png"
+  },
+  {
+    "id": 1787354391,
+    "name": "Bruno Henrique",
+    "club": "Internacional",
+    "clubs": [
+      "Internacional"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1787354391.png",
+    "positions": [
+      "CM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1620298864.png"
+  },
+  {
+    "id": 937310223,
+    "name": "Bruno Henrique",
+    "club": "Flamengo",
+    "clubs": [
+      "Flamengo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/937310223.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/52227321.png"
+  },
+  {
+    "id": 1987965398,
+    "name": "Bruno Tabata",
+    "club": "Internacional",
+    "clubs": [
+      "Internacional"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1987965398.png",
+    "positions": [
+      "RW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1620298864.png"
+  },
+  {
+    "id": 418258609,
+    "name": "Bruno Zapelli",
+    "club": "Athletico Paranaense",
+    "clubs": [
+      "Athletico Paranaense"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/418258609.png",
+    "positions": [
+      "AM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1945198973.png"
+  },
+  {
+    "id": 1757574829,
+    "name": "Cacá",
+    "club": "Vitoria",
+    "clubs": [
+      "Vitoria"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1757574829.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/595133378.png"
+  },
+  {
+    "id": 632215363,
+    "name": "Caio Alexandre",
+    "club": "Bahia",
+    "clubs": [
+      "Bahia"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/632215363.png",
+    "positions": [
+      "DM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/757657019.png"
+  },
+  {
+    "id": 2056482860,
+    "name": "Caio Roque",
+    "club": "Botafogo",
+    "clubs": [
+      "Botafogo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/2056482860.png",
+    "positions": [
+      "LB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/733567445.png"
+  },
+  {
+    "id": 736429322,
+    "name": "Caique",
+    "club": "Vitoria",
+    "clubs": [
+      "Vitoria"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/736429322.png",
+    "positions": [
+      "DM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/595133378.png"
+  },
+  {
+    "id": 696201530,
+    "name": "Camutanga",
+    "club": "Vitoria",
+    "clubs": [
+      "Vitoria"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/696201530.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/595133378.png"
+  },
+  {
+    "id": 237141902,
+    "name": "Carlos Miguel",
+    "club": "Palmeiras",
+    "clubs": [
+      "Palmeiras"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/237141902.png",
+    "positions": [
+      "GK"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/955320104.png"
+  },
+  {
+    "id": 2055559867,
+    "name": "Cauã Soares",
+    "club": "Atlético Mineiro",
+    "clubs": [
+      "Atlético Mineiro"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/2055559867.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1439866986.png"
+  },
+  {
+    "id": 527918211,
+    "name": "Charles",
+    "club": "Corinthians",
+    "clubs": [
+      "Corinthians"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/527918211.png",
+    "positions": [],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1072776343.png"
+  },
+  {
+    "id": 10094108,
+    "name": "Christian Oliva",
+    "club": "Santos",
+    "clubs": [
+      "Santos"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/10094108.png",
+    "positions": [
+      "DM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1085681166.png"
+  },
+  {
+    "id": 1189136150,
+    "name": "Cleiton",
+    "club": "RB Bragantino",
+    "clubs": [
+      "RB Bragantino"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1189136150.png",
+    "positions": [
+      "GK"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1851087376.png"
+  },
+  {
+    "id": 1665684413,
+    "name": "Cristian Medina",
+    "club": "Botafogo",
+    "clubs": [
+      "Botafogo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1665684413.png",
+    "positions": [
+      "CM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/733567445.png"
+  },
+  {
+    "id": 685918665,
+    "name": "Cuiabano",
+    "club": "Vasco da Gama",
+    "clubs": [
+      "Vasco da Gama"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/685918665.png",
+    "positions": [
+      "LB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1060091761.png"
+  },
+  {
+    "id": 1047247607,
+    "name": "Danielzinho",
+    "club": "São Paulo",
+    "clubs": [
+      "São Paulo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1047247607.png",
+    "positions": [
+      "CM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/415137267.png"
+  },
+  {
+    "id": 1269428755,
+    "name": "Dantas",
+    "club": "Athletico Paranaense",
+    "clubs": [
+      "Athletico Paranaense"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1269428755.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1945198973.png"
+  },
+  {
+    "id": 1399992599,
+    "name": "David",
+    "club": "Vasco da Gama",
+    "clubs": [
+      "Vasco da Gama"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1399992599.png",
+    "positions": [
+      "LW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1060091761.png"
+  },
+  {
+    "id": 408559631,
+    "name": "David Braga",
+    "club": "Remo",
+    "clubs": [
+      "Remo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/408559631.png",
+    "positions": [],
+    "clubCrest": "https://football-api.yuvron.online/images/team/2015819585.png"
+  },
+  {
+    "id": 826160629,
+    "name": "David Martins",
+    "club": "Bahia",
+    "clubs": [
+      "Bahia"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/826160629.png",
+    "positions": [
+      "CM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/757657019.png"
+  },
+  {
+    "id": 1433867110,
+    "name": "Denilson",
+    "club": "Mirassol",
+    "clubs": [
+      "Mirassol"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1433867110.png",
+    "positions": [
+      "CM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1010303913.png"
+  },
+  {
+    "id": 656477421,
+    "name": "Diego Tarzia",
+    "club": "Vitoria",
+    "clubs": [
+      "Vitoria"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/656477421.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/595133378.png"
+  },
+  {
+    "id": 836853079,
+    "name": "Dieguinho",
+    "club": "Corinthians",
+    "clubs": [
+      "Corinthians"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/836853079.png",
+    "positions": [
+      "RW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1072776343.png"
+  },
+  {
+    "id": 821955910,
+    "name": "Diogenes",
+    "club": "Santos",
+    "clubs": [
+      "Santos"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/821955910.png",
+    "positions": [
+      "GK"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1085681166.png"
+  },
+  {
+    "id": 1193896794,
+    "name": "Dudu",
+    "club": "Atlético Mineiro",
+    "clubs": [
+      "Atlético Mineiro"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1193896794.png",
+    "positions": [
+      "LW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1439866986.png"
+  },
+  {
+    "id": 1142204020,
+    "name": "Duplexe Tchamba",
+    "club": "Remo",
+    "clubs": [
+      "Remo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1142204020.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/2015819585.png"
+  },
+  {
+    "id": 1265020949,
+    "name": "Edenilson",
+    "club": "Botafogo",
+    "clubs": [
+      "Botafogo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1265020949.png",
+    "positions": [
+      "CM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/733567445.png"
+  },
+  {
+    "id": 1876310357,
+    "name": "Edenílson",
+    "club": "Vitoria",
+    "clubs": [
+      "Vitoria"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1876310357.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/595133378.png"
+  },
+  {
+    "id": 694137146,
+    "name": "Edson Carioca",
+    "club": "Mirassol",
+    "clubs": [
+      "Mirassol"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/694137146.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1010303913.png"
+  },
+  {
+    "id": 1947363031,
+    "name": "Edson Fernando",
+    "club": "Remo",
+    "clubs": [
+      "Remo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1947363031.png",
+    "positions": [],
+    "clubCrest": "https://football-api.yuvron.online/images/team/2015819585.png"
+  },
+  {
+    "id": 801408820,
+    "name": "Edu Ribeiro",
+    "club": "Vitoria",
+    "clubs": [
+      "Vitoria"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/801408820.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/595133378.png"
+  },
+  {
+    "id": 1611923349,
+    "name": "Emanuel Brítez",
+    "club": "Vitoria",
+    "clubs": [
+      "Vitoria"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1611923349.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/595133378.png"
+  },
+  {
+    "id": 486491706,
+    "name": "Emerson Royal",
+    "club": "Flamengo",
+    "clubs": [
+      "Flamengo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/486491706.png",
+    "positions": [
+      "RB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/52227321.png"
+  },
+  {
+    "id": 1691113749,
+    "name": "Emmanuel Martínez",
+    "club": "Vitoria",
+    "clubs": [
+      "Vitoria"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1691113749.png",
+    "positions": [
+      "AM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/595133378.png"
+  },
+  {
+    "id": 1443226266,
+    "name": "Eric Ramires",
+    "club": "RB Bragantino",
+    "clubs": [
+      "RB Bragantino"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1443226266.png",
+    "positions": [
+      "CM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1851087376.png"
+  },
+  {
+    "id": 1363281252,
+    "name": "Erick",
+    "club": "Bahia",
+    "clubs": [
+      "Bahia"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1363281252.png",
+    "positions": [
+      "DM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/757657019.png"
+  },
+  {
+    "id": 885690651,
+    "name": "Erick",
+    "club": "Vitoria",
+    "clubs": [
+      "Vitoria"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/885690651.png",
+    "positions": [
+      "RW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/595133378.png"
+  },
+  {
+    "id": 1456378630,
+    "name": "Erick Pulga",
+    "club": "Bahia",
+    "clubs": [
+      "Bahia"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1456378630.png",
+    "positions": [
+      "LW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/757657019.png"
+  },
+  {
+    "id": 871096143,
+    "name": "Erick Pulgar",
+    "club": "Flamengo",
+    "clubs": [
+      "Flamengo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/871096143.png",
+    "positions": [
+      "DM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/52227321.png"
+  },
+  {
+    "id": 2068553367,
+    "name": "Everaldo",
+    "club": "Bahia",
+    "clubs": [
+      "Bahia"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/2068553367.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/757657019.png"
+  },
+  {
+    "id": 280491487,
+    "name": "Everson",
+    "club": "Atlético Mineiro",
+    "clubs": [
+      "Atlético Mineiro"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/280491487.png",
+    "positions": [
+      "GK"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1439866986.png"
+  },
+  {
+    "id": 269307479,
+    "name": "Everton",
+    "club": "Flamengo",
+    "clubs": [
+      "Flamengo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/269307479.png",
+    "positions": [
+      "LW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/52227321.png"
+  },
+  {
+    "id": 1385018593,
+    "name": "Everton Ribeiro",
+    "club": "Bahia",
+    "clubs": [
+      "Bahia"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1385018593.png",
+    "positions": [
+      "AM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/757657019.png"
+  },
+  {
+    "id": 540042703,
+    "name": "Evertton Araujo",
+    "club": "Flamengo",
+    "clubs": [
+      "Flamengo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/540042703.png",
+    "positions": [
+      "DM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/52227321.png"
+  },
+  {
+    "id": 727624135,
+    "name": "Fabinho",
+    "club": "RB Bragantino",
+    "clubs": [
+      "RB Bragantino"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/727624135.png",
+    "positions": [
+      "DM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1851087376.png"
+  },
+  {
+    "id": 381964624,
+    "name": "Fabri",
+    "club": "Vitoria",
+    "clubs": [
+      "Vitoria"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/381964624.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/595133378.png"
+  },
+  {
+    "id": 1132151216,
+    "name": "Fabrizio Angileri",
+    "club": "Corinthians",
+    "clubs": [
+      "Corinthians"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1132151216.png",
+    "positions": [
+      "LB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1072776343.png"
+  },
+  {
+    "id": 570190490,
+    "name": "Facundo Colidio",
+    "club": "Vasco da Gama",
+    "clubs": [
+      "Vasco da Gama"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/570190490.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1060091761.png"
+  },
+  {
+    "id": 349164957,
+    "name": "Felipinho",
+    "club": "Athletico Paranaense",
+    "clubs": [
+      "Athletico Paranaense"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/349164957.png",
+    "positions": [
+      "CM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1945198973.png"
+  },
+  {
+    "id": 1405557810,
+    "name": "Fernando",
+    "club": "RB Bragantino",
+    "clubs": [
+      "RB Bragantino"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1405557810.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1851087376.png"
+  },
+  {
+    "id": 903909321,
+    "name": "Ferreira",
+    "club": "São Paulo",
+    "clubs": [
+      "São Paulo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/903909321.png",
+    "positions": [
+      "LW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/415137267.png"
+  },
+  {
+    "id": 1512362427,
+    "name": "Firmino Negueba",
+    "club": "Mirassol",
+    "clubs": [
+      "Mirassol"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1512362427.png",
+    "positions": [
+      "RW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1010303913.png"
+  },
+  {
+    "id": 88087135,
+    "name": "Gabriel Baralhas",
+    "club": "Vitoria",
+    "clubs": [
+      "Vitoria"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/88087135.png",
+    "positions": [
+      "DM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/595133378.png"
+  },
+  {
+    "id": 1967241975,
+    "name": "Gabriel Bontempo",
+    "club": "Santos",
+    "clubs": [
+      "Santos"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1967241975.png",
+    "positions": [
+      "CM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1085681166.png"
+  },
+  {
+    "id": 2065702772,
+    "name": "Gabriel Delfim",
+    "club": "Atlético Mineiro",
+    "clubs": [
+      "Atlético Mineiro"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/2065702772.png",
+    "positions": [
+      "GK"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1439866986.png"
+  },
+  {
+    "id": 483585837,
+    "name": "Gabriel Justino",
+    "club": "Botafogo",
+    "clubs": [
+      "Botafogo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/483585837.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/733567445.png"
+  },
+  {
+    "id": 1790952028,
+    "name": "Gabriel Mercado",
+    "club": "Internacional",
+    "clubs": [
+      "Internacional"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1790952028.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1620298864.png"
+  },
+  {
+    "id": 738853619,
+    "name": "Gabriel Pires",
+    "club": "Mirassol",
+    "clubs": [
+      "Mirassol"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/738853619.png",
+    "positions": [
+      "DM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1010303913.png"
+  },
+  {
+    "id": 507066689,
+    "name": "Gabriel Poveda",
+    "club": "Remo",
+    "clubs": [
+      "Remo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/507066689.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/2015819585.png"
+  },
+  {
+    "id": 1105145748,
+    "name": "Gabriel Taliari",
+    "club": "Remo",
+    "clubs": [
+      "Remo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1105145748.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/2015819585.png"
+  },
+  {
+    "id": 28668509,
+    "name": "Gabriel Xavier",
+    "club": "Bahia",
+    "clubs": [
+      "Bahia"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/28668509.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/757657019.png"
+  },
+  {
+    "id": 53025659,
+    "name": "Gastón Benavídez",
+    "club": "Athletico Paranaense",
+    "clubs": [
+      "Athletico Paranaense"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/53025659.png",
+    "positions": [
+      "RB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1945198973.png"
+  },
+  {
+    "id": 1570058689,
+    "name": "Gilberto",
+    "club": "Athletico Paranaense",
+    "clubs": [
+      "Bahia",
+      "Athletico Paranaense"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1570058689.png",
+    "positions": [
+      "RB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1945198973.png"
+  },
+  {
+    "id": 624941056,
+    "name": "Giorgian de Arrascaeta",
+    "club": "Flamengo",
+    "clubs": [
+      "Flamengo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/624941056.png",
+    "positions": [
+      "AM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/52227321.png"
+  },
+  {
+    "id": 1433257776,
+    "name": "Gonzalo Escobar",
+    "club": "Santos",
+    "clubs": [
+      "Santos"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1433257776.png",
+    "positions": [
+      "LB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1085681166.png"
+  },
+  {
+    "id": 1983164362,
+    "name": "Gonzalo Plata",
+    "club": "Flamengo",
+    "clubs": [
+      "Flamengo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1983164362.png",
+    "positions": [
+      "RW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/52227321.png"
+  },
+  {
+    "id": 1813987019,
+    "name": "Gui Negão",
+    "club": "Corinthians",
+    "clubs": [
+      "Corinthians"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1813987019.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1072776343.png"
+  },
+  {
+    "id": 1060755297,
+    "name": "Guillermo Varela",
+    "club": "Flamengo",
+    "clubs": [
+      "Flamengo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1060755297.png",
+    "positions": [
+      "RB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/52227321.png"
+  },
+  {
+    "id": 1767579972,
+    "name": "Gustavo Gomez",
+    "club": "Palmeiras",
+    "clubs": [
+      "Palmeiras"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1767579972.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/955320104.png"
+  },
+  {
+    "id": 1005455143,
+    "name": "Gustavo Henrique",
+    "club": "Corinthians",
+    "clubs": [
+      "Corinthians"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1005455143.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1072776343.png"
+  },
+  {
+    "id": 1975327861,
+    "name": "Gustavo Marques",
+    "club": "RB Bragantino",
+    "clubs": [
+      "RB Bragantino"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1975327861.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1851087376.png"
+  },
+  {
+    "id": 366037419,
+    "name": "Gustavo Scarpa",
+    "club": "Atlético Mineiro",
+    "clubs": [
+      "Atlético Mineiro"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/366037419.png",
+    "positions": [
+      "AM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1439866986.png"
+  },
+  {
+    "id": 575074663,
+    "name": "Guzmán Rodríguez",
+    "club": "RB Bragantino",
+    "clubs": [
+      "RB Bragantino"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/575074663.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1851087376.png"
+  },
+  {
+    "id": 724495950,
+    "name": "Henry Mosquera",
+    "club": "RB Bragantino",
+    "clubs": [
+      "RB Bragantino"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/724495950.png",
+    "positions": [
+      "LW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1851087376.png"
+  },
+  {
+    "id": 45312949,
+    "name": "Hugo Souza",
+    "club": "Corinthians",
+    "clubs": [
+      "Corinthians"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/45312949.png",
+    "positions": [
+      "GK"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1072776343.png"
+  },
+  {
+    "id": 1966785738,
+    "name": "Hulk",
+    "club": "Atlético Mineiro",
+    "clubs": [
+      "Atlético Mineiro"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1966785738.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1439866986.png"
+  },
+  {
+    "id": 2072420188,
+    "name": "Igor Formiga",
+    "club": "Mirassol",
+    "clubs": [
+      "Mirassol"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/2072420188.png",
+    "positions": [
+      "RB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1010303913.png"
+  },
+  {
+    "id": 1538991368,
+    "name": "Igor Gomes",
+    "club": "Atlético Mineiro",
+    "clubs": [
+      "Atlético Mineiro"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1538991368.png",
+    "positions": [
+      "AM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1439866986.png"
+  },
+  {
+    "id": 117805958,
+    "name": "Isidro Pitta",
+    "club": "RB Bragantino",
+    "clubs": [
+      "RB Bragantino"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/117805958.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1851087376.png"
+  },
+  {
+    "id": 470431618,
+    "name": "Jadson",
+    "club": "Athletico Paranaense",
+    "clubs": [
+      "Athletico Paranaense"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/470431618.png",
+    "positions": [
+      "CM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1945198973.png"
+  },
+  {
+    "id": 734048747,
+    "name": "Jajá",
+    "club": "Remo",
+    "clubs": [
+      "Remo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/734048747.png",
+    "positions": [
+      "LW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/2015819585.png"
+  },
+  {
+    "id": 806515704,
+    "name": "Jamerson",
+    "club": "Vitoria",
+    "clubs": [
+      "Vitoria"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/806515704.png",
+    "positions": [
+      "LB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/595133378.png"
+  },
+  {
+    "id": 923136144,
+    "name": "Jean Lucas",
+    "club": "Bahia",
+    "clubs": [
+      "Bahia"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/923136144.png",
+    "positions": [
+      "CM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/757657019.png"
+  },
+  {
+    "id": 1784318336,
+    "name": "Jesse Lingard",
+    "club": "Corinthians",
+    "clubs": [
+      "Corinthians"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1784318336.png",
+    "positions": [
+      "AM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1072776343.png"
+  },
+  {
+    "id": 683209943,
+    "name": "João Ananias",
+    "club": "Santos",
+    "clubs": [
+      "Santos"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/683209943.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1085681166.png"
+  },
+  {
+    "id": 1400215283,
+    "name": "João Cruz",
+    "club": "Athletico Paranaense",
+    "clubs": [
+      "Athletico Paranaense"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1400215283.png",
+    "positions": [
+      "CM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1945198973.png"
+  },
+  {
+    "id": 1605286586,
+    "name": "João Schmidt",
+    "club": "Santos",
+    "clubs": [
+      "Santos"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1605286586.png",
+    "positions": [
+      "DM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1085681166.png"
+  },
+  {
+    "id": 668819017,
+    "name": "João Victor",
+    "club": "Mirassol",
+    "clubs": [
+      "Mirassol"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/668819017.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1010303913.png"
+  },
+  {
+    "id": 1203699942,
+    "name": "Joaquín Freitas",
+    "club": "Flamengo",
+    "clubs": [
+      "Flamengo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1203699942.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/52227321.png"
+  },
+  {
+    "id": 888094586,
+    "name": "Joaquin Piquerez",
+    "club": "Palmeiras",
+    "clubs": [
+      "Palmeiras"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/888094586.png",
+    "positions": [
+      "LB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/955320104.png"
+  },
+  {
+    "id": 2065332902,
+    "name": "Jonathan Calleri",
+    "club": "São Paulo",
+    "clubs": [
+      "São Paulo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/2065332902.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/415137267.png"
+  },
+  {
+    "id": 967446759,
+    "name": "Jordan Barrera",
+    "club": "Botafogo",
+    "clubs": [
+      "Botafogo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/967446759.png",
+    "positions": [
+      "AM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/733567445.png"
+  },
+  {
+    "id": 798801389,
+    "name": "Jorge Carrascal",
+    "club": "Flamengo",
+    "clubs": [
+      "Flamengo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/798801389.png",
+    "positions": [
+      "AM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/52227321.png"
+  },
+  {
+    "id": 48206209,
+    "name": "Jorge Rivaldo",
+    "club": "Athletico Paranaense",
+    "clubs": [
+      "Athletico Paranaense"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/48206209.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1945198973.png"
+  },
+  {
+    "id": 312673077,
+    "name": "Jorginho",
+    "club": "Flamengo",
+    "clubs": [
+      "Flamengo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/312673077.png",
+    "positions": [
+      "DM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/52227321.png"
+  },
+  {
+    "id": 556188659,
+    "name": "José Herrera",
+    "club": "RB Bragantino",
+    "clubs": [
+      "RB Bragantino"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/556188659.png",
+    "positions": [
+      "RW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1851087376.png"
+  },
+  {
+    "id": 1556845373,
+    "name": "Jose Manuel Lopez",
+    "club": "Palmeiras",
+    "clubs": [
+      "Palmeiras"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1556845373.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/955320104.png"
+  },
+  {
+    "id": 1864310684,
+    "name": "José Sabino",
+    "club": "São Paulo",
+    "clubs": [
+      "São Paulo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1864310684.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/415137267.png"
+  },
+  {
+    "id": 937352468,
+    "name": "Juninho",
+    "club": "Internacional",
+    "clubs": [
+      "Internacional"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/937352468.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1620298864.png"
+  },
+  {
+    "id": 1707024467,
+    "name": "Junior Alonso",
+    "club": "Atlético Mineiro",
+    "clubs": [
+      "Atlético Mineiro"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1707024467.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1439866986.png"
+  },
+  {
+    "id": 1002338255,
+    "name": "Júnior Santos",
+    "club": "Botafogo",
+    "clubs": [
+      "Botafogo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1002338255.png",
+    "positions": [
+      "RW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/733567445.png"
+  },
+  {
+    "id": 1993890678,
+    "name": "Kaio César",
+    "club": "Corinthians",
+    "clubs": [
+      "Corinthians"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1993890678.png",
+    "positions": [
+      "RW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1072776343.png"
+  },
+  {
+    "id": 912179971,
+    "name": "Kauã Pascini",
+    "club": "Atlético Mineiro",
+    "clubs": [
+      "Atlético Mineiro"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/912179971.png",
+    "positions": [
+      "LB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1439866986.png"
+  },
+  {
+    "id": 167464555,
+    "name": "Kerwin Vargas",
+    "club": "Athletico Paranaense",
+    "clubs": [
+      "Athletico Paranaense"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/167464555.png",
+    "positions": [
+      "LW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1945198973.png"
+  },
+  {
+    "id": 1775735272,
+    "name": "Khellven",
+    "club": "Palmeiras",
+    "clubs": [
+      "Palmeiras"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1775735272.png",
+    "positions": [
+      "RB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/955320104.png"
+  },
+  {
+    "id": 1770180190,
+    "name": "Kike Olivera",
+    "club": "Bahia",
+    "clubs": [
+      "Bahia"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1770180190.png",
+    "positions": [
+      "RW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/757657019.png"
+  },
+  {
+    "id": 1272617908,
+    "name": "Lautaro Díaz",
+    "club": "Santos",
+    "clubs": [
+      "Santos"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1272617908.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1085681166.png"
+  },
+  {
+    "id": 2136033816,
+    "name": "Léo Derik",
+    "club": "Athletico Paranaense",
+    "clubs": [
+      "Athletico Paranaense"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/2136033816.png",
+    "positions": [
+      "LB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1945198973.png"
+  },
+  {
+    "id": 1277898683,
+    "name": "Léo Jardim",
+    "club": "Vasco da Gama",
+    "clubs": [
+      "Vasco da Gama"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1277898683.png",
+    "positions": [
+      "GK"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1060091761.png"
+  },
+  {
+    "id": 1764449030,
+    "name": "Léo Ortiz",
+    "club": "Flamengo",
+    "clubs": [
+      "Flamengo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1764449030.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/52227321.png"
+  },
+  {
+    "id": 510721231,
+    "name": "Leo Pereira",
+    "club": "Flamengo",
+    "clubs": [
+      "Flamengo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/510721231.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/52227321.png"
+  },
+  {
+    "id": 950124223,
+    "name": "Leo Vieira",
+    "club": "Bahia",
+    "clubs": [
+      "Bahia"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/950124223.png",
+    "positions": [
+      "GK"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/757657019.png"
+  },
+  {
+    "id": 1506032633,
+    "name": "Leozinho",
+    "club": "Athletico Paranaense",
+    "clubs": [
+      "Athletico Paranaense"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1506032633.png",
+    "positions": [
+      "RW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1945198973.png"
+  },
+  {
+    "id": 45307475,
+    "name": "Lorran",
+    "club": "Flamengo",
+    "clubs": [
+      "Flamengo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/45307475.png",
+    "positions": [
+      "AM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/52227321.png"
+  },
+  {
+    "id": 1934478910,
+    "name": "Luan Candido",
+    "club": "Vitoria",
+    "clubs": [
+      "Vitoria"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1934478910.png",
+    "positions": [
+      "LB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/595133378.png"
+  },
+  {
+    "id": 725091459,
+    "name": "Luan Peres",
+    "club": "Santos",
+    "clubs": [
+      "Santos"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/725091459.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1085681166.png"
+  },
+  {
+    "id": 1968499518,
+    "name": "Lucas Arcanjo",
+    "club": "Vitoria",
+    "clubs": [
+      "Vitoria"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1968499518.png",
+    "positions": [
+      "GK"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/595133378.png"
+  },
+  {
+    "id": 1164328519,
+    "name": "Lucas Barbosa",
+    "club": "RB Bragantino",
+    "clubs": [
+      "RB Bragantino"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1164328519.png",
+    "positions": [
+      "RW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1851087376.png"
+  },
+  {
+    "id": 1303717104,
+    "name": "Lucas Esquivel",
+    "club": "Athletico Paranaense",
+    "clubs": [
+      "Athletico Paranaense"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1303717104.png",
+    "positions": [
+      "LB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1945198973.png"
+  },
+  {
+    "id": 1715339672,
+    "name": "Lucas Piton",
+    "club": "Vasco da Gama",
+    "clubs": [
+      "Vasco da Gama"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1715339672.png",
+    "positions": [
+      "LB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1060091761.png"
+  },
+  {
+    "id": 1008736289,
+    "name": "Lucas Ramon",
+    "club": "São Paulo",
+    "clubs": [
+      "São Paulo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1008736289.png",
+    "positions": [
+      "RB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/415137267.png"
+  },
+  {
+    "id": 1114292589,
+    "name": "Lucas Veríssimo",
+    "club": "Santos",
+    "clubs": [
+      "Santos"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1114292589.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1085681166.png"
+  },
+  {
+    "id": 1585471055,
+    "name": "Luciano",
+    "club": "São Paulo",
+    "clubs": [
+      "São Paulo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1585471055.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/415137267.png"
+  },
+  {
+    "id": 1939192985,
+    "name": "Luciano Juba",
+    "club": "Bahia",
+    "clubs": [
+      "Bahia"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1939192985.png",
+    "positions": [
+      "LB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/757657019.png"
+  },
+  {
+    "id": 1261190233,
+    "name": "Luighi",
+    "club": "Palmeiras",
+    "clubs": [
+      "Palmeiras"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1261190233.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/955320104.png"
+  },
+  {
+    "id": 2051097194,
+    "name": "Luis Osorio",
+    "club": "São Paulo",
+    "clubs": [
+      "São Paulo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/2051097194.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/415137267.png"
+  },
+  {
+    "id": 1329804215,
+    "name": "Luiz Araújo",
+    "club": "Flamengo",
+    "clubs": [
+      "Flamengo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1329804215.png",
+    "positions": [
+      "RW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/52227321.png"
+  },
+  {
+    "id": 194299582,
+    "name": "Luiz Gustavo",
+    "club": "Athletico Paranaense",
+    "clubs": [
+      "Athletico Paranaense"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/194299582.png",
+    "positions": [],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1945198973.png"
+  },
+  {
+    "id": 674242149,
+    "name": "Mamady Cissé",
+    "club": "Atlético Mineiro",
+    "clubs": [
+      "Atlético Mineiro"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/674242149.png",
+    "positions": [
+      "AM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1439866986.png"
+  },
+  {
+    "id": 615146862,
+    "name": "Marcelinho",
+    "club": "Remo",
+    "clubs": [
+      "Remo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/615146862.png",
+    "positions": [
+      "RB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/2015819585.png"
+  },
+  {
+    "id": 2017649734,
+    "name": "Marcelo Rangel",
+    "club": "Remo",
+    "clubs": [
+      "Remo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/2017649734.png",
+    "positions": [
+      "GK"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/2015819585.png"
+  },
+  {
+    "id": 1825330881,
+    "name": "Marcos Antonio",
+    "club": "São Paulo",
+    "clubs": [
+      "São Paulo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1825330881.png",
+    "positions": [
+      "CM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/415137267.png"
+  },
+  {
+    "id": 1502974250,
+    "name": "Marinho",
+    "club": "Vitoria",
+    "clubs": [
+      "Vitoria"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1502974250.png",
+    "positions": [
+      "RW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/595133378.png"
+  },
+  {
+    "id": 2070640908,
+    "name": "Marino Hinestroza",
+    "club": "Vasco da Gama",
+    "clubs": [
+      "Vasco da Gama"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/2070640908.png",
+    "positions": [
+      "RW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1060091761.png"
+  },
+  {
+    "id": 966961216,
+    "name": "Marllon",
+    "club": "Remo",
+    "clubs": [
+      "Remo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/966961216.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/2015819585.png"
+  },
+  {
+    "id": 1375235876,
+    "name": "Marlon Freitas",
+    "club": "Palmeiras",
+    "clubs": [
+      "Palmeiras"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1375235876.png",
+    "positions": [
+      "DM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/955320104.png"
+  },
+  {
+    "id": 1813351037,
+    "name": "Mateo Sanabria",
+    "club": "Bahia",
+    "clubs": [
+      "Bahia"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1813351037.png",
+    "positions": [
+      "LW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/757657019.png"
+  },
+  {
+    "id": 1664797740,
+    "name": "Mateusinho",
+    "club": "Vitoria",
+    "clubs": [
+      "Vitoria"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1664797740.png",
+    "positions": [
+      "RB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/595133378.png"
+  },
+  {
+    "id": 1474934440,
+    "name": "Matheus Bahia",
+    "club": "Internacional",
+    "clubs": [
+      "Internacional"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1474934440.png",
+    "positions": [
+      "LB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1620298864.png"
+  },
+  {
+    "id": 962843359,
+    "name": "Matheus Bidu",
+    "club": "Corinthians",
+    "clubs": [
+      "Corinthians"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/962843359.png",
+    "positions": [
+      "LB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1072776343.png"
+  },
+  {
+    "id": 1710718587,
+    "name": "Matheus Martins",
+    "club": "Botafogo",
+    "clubs": [
+      "Botafogo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1710718587.png",
+    "positions": [
+      "LW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/733567445.png"
+  },
+  {
+    "id": 2058240609,
+    "name": "Matheuzinho",
+    "club": "Vitoria",
+    "clubs": [
+      "Vitoria"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/2058240609.png",
+    "positions": [
+      "AM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/595133378.png"
+  },
+  {
+    "id": 1182467316,
+    "name": "Matheuzinho",
+    "club": "Corinthians",
+    "clubs": [
+      "Corinthians"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1182467316.png",
+    "positions": [
+      "RB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1072776343.png"
+  },
+  {
+    "id": 1585476679,
+    "name": "Mauricio",
+    "club": "Palmeiras",
+    "clubs": [
+      "Palmeiras"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1585476679.png",
+    "positions": [
+      "AM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/955320104.png"
+  },
+  {
+    "id": 2104879923,
+    "name": "Maycon",
+    "club": "Atlético Mineiro",
+    "clubs": [
+      "Atlético Mineiro"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/2104879923.png",
+    "positions": [
+      "CM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1439866986.png"
+  },
+  {
+    "id": 1107079442,
+    "name": "Mayk",
+    "club": "Remo",
+    "clubs": [
+      "Remo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1107079442.png",
+    "positions": [
+      "LB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/2015819585.png"
+  },
+  {
+    "id": 1505854526,
+    "name": "Mayke",
+    "club": "Santos",
+    "clubs": [
+      "Santos"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1505854526.png",
+    "positions": [
+      "RB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1085681166.png"
+  },
+  {
+    "id": 2055810726,
+    "name": "Michel Araújo",
+    "club": "Bahia",
+    "clubs": [
+      "Bahia"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/2055810726.png",
+    "positions": [
+      "LW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/757657019.png"
+  },
+  {
+    "id": 49828453,
+    "name": "Miguelito",
+    "club": "Santos",
+    "clubs": [
+      "Santos"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/49828453.png",
+    "positions": [
+      "AM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1085681166.png"
+  },
+  {
+    "id": 956133661,
+    "name": "Moises",
+    "club": "Santos",
+    "clubs": [
+      "Santos"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/956133661.png",
+    "positions": [
+      "LW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1085681166.png"
+  },
+  {
+    "id": 259445468,
+    "name": "Murilo Cerqueira",
+    "club": "Palmeiras",
+    "clubs": [
+      "Palmeiras"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/259445468.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/955320104.png"
+  },
+  {
+    "id": 2090588632,
+    "name": "Mycael",
+    "club": "Athletico Paranaense",
+    "clubs": [
+      "Athletico Paranaense"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/2090588632.png",
+    "positions": [
+      "GK"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1945198973.png"
+  },
+  {
+    "id": 812079531,
+    "name": "Nacho Sosa",
+    "club": "RB Bragantino",
+    "clubs": [
+      "RB Bragantino"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/812079531.png",
+    "positions": [
+      "CM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1851087376.png"
+  },
+  {
+    "id": 1083515446,
+    "name": "Nahuel Ferraresi",
+    "club": "Botafogo",
+    "clubs": [
+      "Botafogo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1083515446.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/733567445.png"
+  },
+  {
+    "id": 214333266,
+    "name": "Natanael",
+    "club": "Atlético Mineiro",
+    "clubs": [
+      "Atlético Mineiro"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/214333266.png",
+    "positions": [
+      "RB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1439866986.png"
+  },
+  {
+    "id": 1895142024,
+    "name": "Nathan Mendes",
+    "club": "Vitoria",
+    "clubs": [
+      "Vitoria"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1895142024.png",
+    "positions": [
+      "RB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/595133378.png"
+  },
+  {
+    "id": 1535712140,
+    "name": "Neto Moura",
+    "club": "Mirassol",
+    "clubs": [
+      "Mirassol"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1535712140.png",
+    "positions": [
+      "DM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1010303913.png"
+  },
+  {
+    "id": 1642156145,
+    "name": "Nicolás Acevedo",
+    "club": "Bahia",
+    "clubs": [
+      "Bahia"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1642156145.png",
+    "positions": [
+      "DM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/757657019.png"
+  },
+  {
+    "id": 1983447250,
+    "name": "Nicolas De La Cruz",
+    "club": "Flamengo",
+    "clubs": [
+      "Flamengo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1983447250.png",
+    "positions": [
+      "CM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/52227321.png"
+  },
+  {
+    "id": 273951607,
+    "name": "Nuno Moreira",
+    "club": "Vasco da Gama",
+    "clubs": [
+      "Vasco da Gama"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/273951607.png",
+    "positions": [
+      "LW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1060091761.png"
+  },
+  {
+    "id": 1571137634,
+    "name": "Pablo Maia",
+    "club": "São Paulo",
+    "clubs": [
+      "São Paulo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1571137634.png",
+    "positions": [
+      "DM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/415137267.png"
+  },
+  {
+    "id": 1744715490,
+    "name": "Patrick",
+    "club": "Remo",
+    "clubs": [
+      "Remo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1744715490.png",
+    "positions": [
+      "CM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/2015819585.png"
+  },
+  {
+    "id": 1645865445,
+    "name": "Pedro",
+    "club": "Flamengo",
+    "clubs": [
+      "Flamengo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1645865445.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/52227321.png"
+  },
+  {
+    "id": 1284250103,
+    "name": "Puma Rodriguez",
+    "club": "Vasco da Gama",
+    "clubs": [
+      "Vasco da Gama"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1284250103.png",
+    "positions": [
+      "RB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1060091761.png"
+  },
+  {
+    "id": 424013827,
+    "name": "Rafael",
+    "club": "São Paulo",
+    "clubs": [
+      "São Paulo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/424013827.png",
+    "positions": [
+      "GK"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/415137267.png"
+  },
+  {
+    "id": 1485601367,
+    "name": "Rafael Santos Borre",
+    "club": "Internacional",
+    "clubs": [
+      "Internacional"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1485601367.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1620298864.png"
+  },
+  {
+    "id": 2135484867,
+    "name": "Ramon",
+    "club": "Vitoria",
+    "clubs": [
+      "Vitoria"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/2135484867.png",
+    "positions": [
+      "LB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/595133378.png"
+  },
+  {
+    "id": 350143595,
+    "name": "Ramon Sosa",
+    "club": "Palmeiras",
+    "clubs": [
+      "Palmeiras"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/350143595.png",
+    "positions": [
+      "LW",
+      "RW",
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/955320104.png"
+  },
+  {
+    "id": 67841587,
+    "name": "Raul",
+    "club": "Botafogo",
+    "clubs": [
+      "Botafogo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/67841587.png",
+    "positions": [
+      "GK"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/733567445.png"
+  },
+  {
+    "id": 856749929,
+    "name": "Reinier",
+    "club": "Atlético Mineiro",
+    "clubs": [
+      "Atlético Mineiro"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/856749929.png",
+    "positions": [
+      "AM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1439866986.png"
+  },
+  {
+    "id": 932272848,
+    "name": "Renan Lodi",
+    "club": "Atlético Mineiro",
+    "clubs": [
+      "Atlético Mineiro"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/932272848.png",
+    "positions": [
+      "LB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1439866986.png"
+  },
+  {
+    "id": 616648419,
+    "name": "Renato Kayzer",
+    "club": "Vitoria",
+    "clubs": [
+      "Vitoria"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/616648419.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/595133378.png"
+  },
+  {
+    "id": 1497203153,
+    "name": "Renê",
+    "club": "Vitoria",
+    "clubs": [
+      "Vitoria"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1497203153.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/595133378.png"
+  },
+  {
+    "id": 537218957,
+    "name": "Riquelme Fillipi",
+    "club": "Palmeiras",
+    "clubs": [
+      "Palmeiras"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/537218957.png",
+    "positions": [
+      "LW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/955320104.png"
+  },
+  {
+    "id": 1980637382,
+    "name": "Robert Arboleda",
+    "club": "São Paulo",
+    "clubs": [
+      "São Paulo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1980637382.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/415137267.png"
+  },
+  {
+    "id": 1558270564,
+    "name": "Robert Renan",
+    "club": "Vasco da Gama",
+    "clubs": [
+      "Vasco da Gama"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1558270564.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1060091761.png"
+  },
+  {
+    "id": 225200630,
+    "name": "Rodrigo Garro",
+    "club": "Corinthians",
+    "clubs": [
+      "Corinthians"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/225200630.png",
+    "positions": [
+      "AM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1072776343.png"
+  },
+  {
+    "id": 1935403116,
+    "name": "Rodrigo Nestor",
+    "club": "Bahia",
+    "clubs": [
+      "Bahia"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1935403116.png",
+    "positions": [
+      "CM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/757657019.png"
+  },
+  {
+    "id": 1873555514,
+    "name": "Rodrigo Villagra",
+    "club": "Internacional",
+    "clubs": [
+      "Internacional"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1873555514.png",
+    "positions": [
+      "DM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1620298864.png"
+  },
+  {
+    "id": 1855692487,
+    "name": "Rodriguinho",
+    "club": "RB Bragantino",
+    "clubs": [
+      "RB Bragantino"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1855692487.png",
+    "positions": [
+      "CM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1851087376.png"
+  },
+  {
+    "id": 2023007057,
+    "name": "Ronaldo Strada",
+    "club": "Bahia",
+    "clubs": [
+      "Bahia"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/2023007057.png",
+    "positions": [
+      "GK"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/757657019.png"
+  },
+  {
+    "id": 350116392,
+    "name": "Rony",
+    "club": "Santos",
+    "clubs": [
+      "Santos"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/350116392.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1085681166.png"
+  },
+  {
+    "id": 1028026941,
+    "name": "Ruan Tressoldi",
+    "club": "Atlético Mineiro",
+    "clubs": [
+      "Atlético Mineiro"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1028026941.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1439866986.png"
+  },
+  {
+    "id": 1693382377,
+    "name": "Samuel Lino",
+    "club": "Flamengo",
+    "clubs": [
+      "Flamengo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1693382377.png",
+    "positions": [
+      "LW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/52227321.png"
+  },
+  {
+    "id": 632077603,
+    "name": "Santiago Mingo",
+    "club": "Bahia",
+    "clubs": [
+      "Bahia"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/632077603.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/757657019.png"
+  },
+  {
+    "id": 1204924660,
+    "name": "Santiago Rodríguez",
+    "club": "Botafogo",
+    "clubs": [
+      "Botafogo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1204924660.png",
+    "positions": [
+      "AM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/733567445.png"
+  },
+  {
+    "id": 1771319888,
+    "name": "Santiago Sosa",
+    "club": "Vasco da Gama",
+    "clubs": [
+      "Vasco da Gama"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1771319888.png",
+    "positions": [],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1060091761.png"
+  },
+  {
+    "id": 1174852828,
+    "name": "Saúl Ñíguez",
+    "club": "Flamengo",
+    "clubs": [
+      "Flamengo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1174852828.png",
+    "positions": [
+      "CM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/52227321.png"
+  },
+  {
+    "id": 1626461275,
+    "name": "Shaylon",
+    "club": "Mirassol",
+    "clubs": [
+      "Mirassol"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1626461275.png",
+    "positions": [
+      "AM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1010303913.png"
+  },
+  {
+    "id": 1940797652,
+    "name": "Stiven Mendoza",
+    "club": "Athletico Paranaense",
+    "clubs": [
+      "Athletico Paranaense"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1940797652.png",
+    "positions": [
+      "LW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1945198973.png"
+  },
+  {
+    "id": 397415501,
+    "name": "Thaciano",
+    "club": "Santos",
+    "clubs": [
+      "Santos"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/397415501.png",
+    "positions": [
+      "AM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1085681166.png"
+  },
+  {
+    "id": 1306476537,
+    "name": "Thiago Borbas",
+    "club": "Atlético Mineiro",
+    "clubs": [
+      "Atlético Mineiro"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1306476537.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1439866986.png"
+  },
+  {
+    "id": 222127608,
+    "name": "Thiago Maia",
+    "club": "Internacional",
+    "clubs": [
+      "Internacional"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/222127608.png",
+    "positions": [
+      "DM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1620298864.png"
+  },
+  {
+    "id": 1853889807,
+    "name": "Thiago Mendes",
+    "club": "Vasco da Gama",
+    "clubs": [
+      "Vasco da Gama"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1853889807.png",
+    "positions": [],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1060091761.png"
+  },
+  {
+    "id": 63623758,
+    "name": "Tiago Volpi",
+    "club": "RB Bragantino",
+    "clubs": [
+      "RB Bragantino"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/63623758.png",
+    "positions": [
+      "GK"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1851087376.png"
+  },
+  {
+    "id": 1193818468,
+    "name": "Tiquinho Soares",
+    "club": "Mirassol",
+    "clubs": [
+      "Mirassol"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1193818468.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1010303913.png"
+  },
+  {
+    "id": 794517822,
+    "name": "Tomas Cuello",
+    "club": "Atlético Mineiro",
+    "clubs": [
+      "Atlético Mineiro"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/794517822.png",
+    "positions": [
+      "LW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1439866986.png"
+  },
+  {
+    "id": 617256622,
+    "name": "Tomás Perez",
+    "club": "Atlético Mineiro",
+    "clubs": [
+      "Atlético Mineiro"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/617256622.png",
+    "positions": [
+      "CM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1439866986.png"
+  },
+  {
+    "id": 563278684,
+    "name": "Tomas Pochettino",
+    "club": "Vitoria",
+    "clubs": [
+      "Vitoria"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/563278684.png",
+    "positions": [
+      "AM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/595133378.png"
+  },
+  {
+    "id": 1374098593,
+    "name": "Tomas Rincon",
+    "club": "Santos",
+    "clubs": [
+      "Santos"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1374098593.png",
+    "positions": [
+      "DM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1085681166.png"
+  },
+  {
+    "id": 1804412314,
+    "name": "Vanderlan",
+    "club": "RB Bragantino",
+    "clubs": [
+      "RB Bragantino"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1804412314.png",
+    "positions": [
+      "LB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1851087376.png"
+  },
+  {
+    "id": 903947481,
+    "name": "Victor Gabriel",
+    "club": "Internacional",
+    "clubs": [
+      "Internacional"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/903947481.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1620298864.png"
+  },
+  {
+    "id": 870002623,
+    "name": "Victor Hugo",
+    "club": "Atlético Mineiro",
+    "clubs": [
+      "Atlético Mineiro"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/870002623.png",
+    "positions": [
+      "AM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1439866986.png"
+  },
+  {
+    "id": 2072526137,
+    "name": "Victor Luis",
+    "club": "Mirassol",
+    "clubs": [
+      "Mirassol"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/2072526137.png",
+    "positions": [
+      "LB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1010303913.png"
+  },
+  {
+    "id": 231035554,
+    "name": "Victor Sá",
+    "club": "São Paulo",
+    "clubs": [
+      "São Paulo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/231035554.png",
+    "positions": [
+      "LW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/415137267.png"
+  },
+  {
+    "id": 171867967,
+    "name": "Vitão",
+    "club": "Flamengo",
+    "clubs": [
+      "Flamengo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/171867967.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/52227321.png"
+  },
+  {
+    "id": 659960907,
+    "name": "Vitinho",
+    "club": "Botafogo",
+    "clubs": [
+      "Botafogo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/659960907.png",
+    "positions": [
+      "RB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/733567445.png"
+  },
+  {
+    "id": 2131206676,
+    "name": "Vitinho",
+    "club": "Internacional",
+    "clubs": [
+      "Internacional"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/2131206676.png",
+    "positions": [
+      "LW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1620298864.png"
+  },
+  {
+    "id": 1839792999,
+    "name": "Vitor Fernandes",
+    "club": "Atlético Mineiro",
+    "clubs": [
+      "Atlético Mineiro"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1839792999.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1439866986.png"
+  },
+  {
+    "id": 959918991,
+    "name": "Vitor Hugo",
+    "club": "Atlético Mineiro",
+    "clubs": [
+      "Atlético Mineiro"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/959918991.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1439866986.png"
+  },
+  {
+    "id": 1330158449,
+    "name": "Vitor Roque",
+    "club": "Palmeiras",
+    "clubs": [
+      "Palmeiras"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1330158449.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/955320104.png"
+  },
+  {
+    "id": 45643922,
+    "name": "Walace",
+    "club": "Vitoria",
+    "clubs": [
+      "Vitoria"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/45643922.png",
+    "positions": [
+      "DM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/595133378.png"
+  },
+  {
+    "id": 1911490831,
+    "name": "Wallace Yan",
+    "club": "Flamengo",
+    "clubs": [
+      "Flamengo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1911490831.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/52227321.png"
+  },
+  {
+    "id": 1275505467,
+    "name": "Walter",
+    "club": "Mirassol",
+    "clubs": [
+      "Mirassol"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1275505467.png",
+    "positions": [
+      "GK"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1010303913.png"
+  },
+  {
+    "id": 1458147225,
+    "name": "Wendell",
+    "club": "São Paulo",
+    "clubs": [
+      "São Paulo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1458147225.png",
+    "positions": [
+      "LB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/415137267.png"
+  },
+  {
+    "id": 2055258125,
+    "name": "Willian José",
+    "club": "Bahia",
+    "clubs": [
+      "Bahia"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/2055258125.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/757657019.png"
+  },
+  {
+    "id": 714394488,
+    "name": "Willian Machado",
+    "club": "Mirassol",
+    "clubs": [
+      "Mirassol"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/714394488.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1010303913.png"
+  },
+  {
+    "id": 960372114,
+    "name": "Yago Pikachu",
+    "club": "Remo",
+    "clubs": [
+      "Remo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/960372114.png",
+    "positions": [
+      "RW"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/2015819585.png"
+  },
+  {
+    "id": 280086335,
+    "name": "Yuri Alberto",
+    "club": "Corinthians",
+    "clubs": [
+      "Corinthians"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/280086335.png",
+    "positions": [
+      "ST"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/1072776343.png"
+  },
+  {
+    "id": 2108493706,
+    "name": "Zé Breno",
+    "club": "Vitoria",
+    "clubs": [
+      "Vitoria"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/2108493706.png",
+    "positions": [
+      "DM"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/595133378.png"
+  },
+  {
+    "id": 830251145,
+    "name": "Zé Ivaldo",
+    "club": "Remo",
+    "clubs": [
+      "Remo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/830251145.png",
+    "positions": [
+      "CB"
+    ],
+    "clubCrest": "https://football-api.yuvron.online/images/team/2015819585.png"
+  },
+  {
+    "id": 363446079,
+    "name": "Zé Ricardo",
+    "club": "Remo",
+    "clubs": [
+      "Remo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/363446079.png",
+    "positions": [],
+    "clubCrest": "https://football-api.yuvron.online/images/team/2015819585.png"
+  },
+  {
+    "id": 1020817146,
+    "name": "Zé Welison",
+    "club": "Remo",
+    "clubs": [
+      "Remo"
+    ],
+    "photo": "https://football-api.yuvron.online/images/player/1020817146.png",
+    "positions": [],
+    "clubCrest": "https://football-api.yuvron.online/images/team/2015819585.png"
+  }
+]

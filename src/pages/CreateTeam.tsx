@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
-import { ArrowLeft, UserRound } from "lucide-react";
+import { ArrowLeft, Plus, Trash2, UserRound } from "lucide-react";
 
 import { categories } from "../data/categories";
 import { formations, goalkeeperSlot } from "../data/formations";
-import { players } from "../data/player";
+import { players } from "../data/players";
 import { coaches } from "../data/coaches";
 
 import type { Player } from "../types/player";
@@ -15,6 +15,7 @@ import { FormationSelector } from "../components/FormationSelector";
 import { FootballPitch } from "../components/FootballPitch";
 import { PlayerSelector } from "../components/PlayerSelector";
 import { CoachSelector } from "../components/CoachSelector";
+import { MentionSelector } from "../components/MentionSelector";
 
 
 interface FormationSlotEntry {
@@ -127,6 +128,13 @@ export function CreateTeam() {
   const categoryId = searchParams.get("categoria");
   const category = categories.find((item) => item.id === categoryId);
 
+  const mentionTitle =
+  categoryId === "best" || categoryId === "surprises"
+    ? "Menções honrosas"
+    : categoryId === "worst" || categoryId === "disappointments"
+      ? "Menções desonrosas"
+      : "Menções";
+
   const [selectedFormation, setSelectedFormation] = useState("4-3-3");
 
   // Todas as vagas usam o mesmo estado.
@@ -143,6 +151,14 @@ export function CreateTeam() {
 
   const formation =
     formations.find((item) => item.id === selectedFormation) ?? formations[0];
+
+  // Menções de jogadores e treinadores.
+  const [mentionedPlayers, setMentionedPlayers] = useState<Player[]>([]);
+  const [mentionedCoaches, setMentionedCoaches] = useState<Coach[]>([]);
+
+  const [mentionSelectorType, setMentionSelectorType] = useState<
+    "player" | "coach" | null
+  >(null);
 
   // Identifica todas as vagas de linha da formação atual.
   const formationSlots = getFormationSlots(formation);
@@ -161,14 +177,16 @@ export function CreateTeam() {
 
   // O jogador da vaga ativa pode aparecer novamente no modal,
   // permitindo substituí-lo sem duplicar jogadores em outras posições.
-  const selectedPlayerIds = new Set(
-  Object.entries(selectedPlayers)
+  const selectedPlayerIds = new Set([
+  ...Object.entries(selectedPlayers)
     .filter(
       ([slotId]) =>
         activeSlotIds.has(slotId) && slotId !== activeSlotId
     )
-    .map(([, player]) => player.id)
-  );
+    .map(([, player]) => player.id),
+
+  ...mentionedPlayers.map((player) => player.id),
+  ]);
 
   // Jogadores de formações anteriores ficam preservados temporariamente.
   const reservePlayers = Object.entries(selectedPlayers)
@@ -236,8 +254,55 @@ export function CreateTeam() {
     setIsCoachSelectorOpen(false);
   }
 
+  function handleMentionPlayerSelect(item: Player | Coach) {
+  if (!("positions" in item)) return;
+
+  setMentionedPlayers((current) => {
+    if (
+      current.length >= 10 ||
+      current.some((player) => player.id === item.id)
+    ) {
+      return current;
+    }
+
+    return [...current, item];
+  });
+
+  setMentionSelectorType(null);
+}
+
+  function handleMentionCoachSelect(item: Player | Coach) {
+    if (!("stints" in item)) return;
+
+    setMentionedCoaches((current) => {
+      if (
+        current.length >= 2 ||
+        item.id === selectedCoach?.id ||
+        current.some((coach) => coach.id === item.id)
+      ) {
+        return current;
+      }
+
+      return [...current, item];
+    });
+
+    setMentionSelectorType(null);
+  }
+
+  function handleMentionPlayerRemove(playerId: number) {
+    setMentionedPlayers((current) =>
+      current.filter((player) => player.id !== playerId)
+    );
+  }
+
+  function handleMentionCoachRemove(coachId: string) {
+    setMentionedCoaches((current) =>
+      current.filter((coach) => coach.id !== coachId)
+    );
+  }
+
   return (
-    <main className="mx-auto max-w-7xl px-6 py-10">
+    <main className="mx-auto w-full max-w-[1600px] px-4 py-6 sm:px-6 sm:py-8 xl:px-8 xl:py-10">
       <div className="mb-8">
         <Link
           to="/"
@@ -260,7 +325,7 @@ export function CreateTeam() {
         </p>
       </div>
 
-      <div className="grid items-start gap-6 lg:grid-cols-[300px_minmax(0,1fr)]">
+      <div className="grid items-start gap-6 lg:grid-cols-[320px_minmax(0,1fr)] xl:gap-8 2xl:grid-cols-[340px_minmax(0,1fr)]">
         <aside className="space-y-5">
           <FormationSelector
             selectedFormation={selectedFormation}
@@ -373,6 +438,117 @@ export function CreateTeam() {
               </span>
             </button>
           </section>
+
+
+<section className="rounded-2xl border border-green-100 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+  <div className="mb-4">
+    <h2 className="font-bold text-green-950 dark:text-white">
+      {mentionTitle}
+    </h2>
+
+    <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
+      Jogadores e treinadores que merecem uma menção.
+    </p>
+  </div>
+
+  {/* Menções de jogadores */}
+  <div className="space-y-3">
+    <div className="flex items-center justify-between">
+      <h3 className="text-sm font-semibold text-gray-800 dark:text-gray-200">
+        Jogadores
+      </h3>
+
+      <span className="text-xs font-semibold text-gray-500 dark:text-gray-400">
+        {mentionedPlayers.length}/10
+      </span>
+    </div>
+
+    {mentionedPlayers.map((player) => (
+      <div
+        key={player.id}
+        className="flex items-center justify-between gap-2 rounded-xl border border-gray-200 p-3 dark:border-gray-700"
+      >
+        <div className="min-w-0">
+          <p className="truncate text-sm font-semibold text-gray-900 dark:text-white">
+            {player.name}
+          </p>
+          <p className="text-xs text-gray-500 dark:text-gray-400">
+            {player.club}
+          </p>
+        </div>
+
+        <button
+          type="button"
+          onClick={() => handleMentionPlayerRemove(player.id)}
+          aria-label={`Remover ${player.name} das menções`}
+          className="rounded-lg p-2 text-red-500 transition hover:bg-red-50 dark:hover:bg-red-950/30"
+        >
+          <Trash2 size={17} />
+        </button>
+      </div>
+    ))}
+
+    <button
+      type="button"
+      disabled={mentionedPlayers.length >= 10}
+      onClick={() => setMentionSelectorType("player")}
+      className="flex w-full items-center justify-center gap-2 rounded-xl border border-dashed border-green-300 p-3 text-sm font-semibold text-green-700 transition hover:bg-green-50 disabled:cursor-not-allowed disabled:opacity-40 dark:border-gray-700 dark:text-green-400 dark:hover:bg-green-950/30"
+    >
+      <Plus size={17} />
+      Adicionar jogador
+    </button>
+  </div>
+
+  <div className="my-5 border-t border-gray-100 dark:border-gray-800" />
+
+  {/* Menções de treinadores */}
+  <div className="space-y-3">
+    <div className="flex items-center justify-between">
+      <h3 className="text-sm font-semibold text-gray-800 dark:text-gray-200">
+        Treinadores
+      </h3>
+
+      <span className="text-xs font-semibold text-gray-500 dark:text-gray-400">
+        {mentionedCoaches.length}/2
+      </span>
+    </div>
+
+    {mentionedCoaches.map((coach) => (
+      <div
+        key={coach.id}
+        className="flex items-center justify-between gap-2 rounded-xl border border-gray-200 p-3 dark:border-gray-700"
+      >
+        <div className="min-w-0">
+          <p className="truncate text-sm font-semibold text-gray-900 dark:text-white">
+            {coach.name}
+          </p>
+          <p className="text-xs text-gray-500 dark:text-gray-400">
+            {coach.stints.map((stint) => stint.club).join(" • ")}
+          </p>
+        </div>
+
+              <button
+                type="button"
+                onClick={() => handleMentionCoachRemove(coach.id)}
+                aria-label={`Remover ${coach.name} das menções`}
+                className="rounded-lg p-2 text-red-500 transition hover:bg-red-50 dark:hover:bg-red-950/30"
+              >
+                    <Trash2 size={17} />
+                  </button>
+                </div>
+              ))}
+
+            <button
+              type="button"
+              disabled={mentionedCoaches.length >= 2}
+              onClick={() => setMentionSelectorType("coach")}
+              className="flex w-full items-center justify-center gap-2 rounded-xl border border-dashed border-green-300 p-3 text-sm font-semibold text-green-700 transition hover:bg-green-50 disabled:cursor-not-allowed disabled:opacity-40 dark:border-gray-700 dark:text-green-400 dark:hover:bg-green-950/30"
+            >
+              <Plus size={17} />
+              Adicionar treinador
+            </button>
+          </div>
+        </section>
         </aside>
 
         <section className="min-w-0">
@@ -416,6 +592,36 @@ export function CreateTeam() {
           onSelect={handleCoachSelect}
           onRemove={selectedCoach ? handleCoachRemove : undefined}
           onClose={() => setIsCoachSelectorOpen(false)}
+        />
+      )}
+
+      {mentionSelectorType === "player" && (
+  <MentionSelector
+    type="player"
+    players={players}
+    selectedIds={
+      new Set([
+        ...Object.values(selectedPlayers).map((player) => player.id),
+        ...mentionedPlayers.map((player) => player.id),
+      ])
+    }
+    onSelect={handleMentionPlayerSelect}
+    onClose={() => setMentionSelectorType(null)}
+  />
+)}
+
+      {mentionSelectorType === "coach" && (
+        <MentionSelector
+          type="coach"
+          coaches={coaches}
+          selectedIds={
+            new Set([
+              ...(selectedCoach ? [selectedCoach.id] : []),
+              ...mentionedCoaches.map((coach) => coach.id),
+            ])
+          }
+          onSelect={handleMentionCoachSelect}
+          onClose={() => setMentionSelectorType(null)}
         />
       )}
     </main>
