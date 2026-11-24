@@ -1,4 +1,3 @@
-
 import type { Formation } from "../data/formations";
 import type { Player } from "../types/player";
 
@@ -57,7 +56,7 @@ export function FootballPitch({
         <div className="pointer-events-none absolute left-1/2 top-1/2 h-28 w-28 -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/40 sm:h-32 sm:w-32" />
 
         {/* Distribuição dos jogadores */}
-<div className="relative z-10 flex min-h-162.5 flex-col justify-around gap-6 px-2 py-8 sm:min-h-190 sm:px-6 sm:py-10 xl:min-h-235">
+        <div className="relative z-10 flex min-h-162.5 flex-col justify-around gap-6 px-2 py-8 sm:min-h-190 sm:px-6 sm:py-10 xl:min-h-235">
           {formation.lines.map((line, lineIndex) => (
             <div
               key={`${formation.id}-${lineIndex}`}

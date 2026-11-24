@@ -1,0 +1,5 @@
+# Proxy das fotografias dos jogadores e escudos dos clubes
+/football-images/* https://football-api.yuvron.online/images/:splat 200
+
+# Fallback para as rotas da aplicação React (SPA)
+/* /index.html 200

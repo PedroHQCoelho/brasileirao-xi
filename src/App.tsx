@@ -1,11 +1,14 @@
-
 import { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
-import { Home } from "./pages/Home";
+
 import type { Theme } from "./types/theme";
+
+import { Home } from "./pages/Home";
 import { CreateTeam } from "./pages/CreateTeam";
+import { MyTeams } from "./pages/MyTeams";
 
 function App() {
   // Recupera o tema salvo anteriormente ou utiliza o tema claro como padrão.
@@ -45,11 +48,7 @@ function App() {
 
             <Route
               path="/minhas-selecoes"
-              element={
-                <div className="p-10 text-center text-gray-800 dark:text-gray-100">
-                  Suas seleções aparecerão aqui.
-                </div>
-              }
+              element={<MyTeams />}
             />
           </Routes>
         </main>
