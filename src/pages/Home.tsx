@@ -1,203 +1,128 @@
-
 import { Link } from "react-router-dom";
-import { ArrowRight, Plus, Trophy, Users } from "lucide-react";
 
+import { PitchSurface } from "../components/FootballPitch";
 import { categories } from "../data/categories";
+import { categoryTone } from "../data/categoryTone";
+
+// Vagas da prévia: as mesmas posições da formação 4-3-3.
+const previewLines = [
+  ["PE", "ATA", "PD"],
+  ["MEI", "MEI", "MEI"],
+  ["LE", "ZAG", "ZAG", "LD"],
+];
+
+function PreviewSlot({ label, goalkeeper = false }: { label: string; goalkeeper?: boolean }) {
+  return (
+    <div
+      className={`display flex h-11 w-11 items-center justify-center rounded-full border-2 border-dashed text-base sm:h-14 sm:w-14 sm:text-xl ${
+        goalkeeper
+          ? "border-yellow-400 bg-yellow-400/20 text-yellow-300"
+          : "border-chalk/80 bg-black/20 text-chalk"
+      }`}
+    >
+      {label}
+    </div>
+  );
+}
 
 export function Home() {
   return (
-    <main className="mx-auto max-w-7xl px-6 py-12">
-
+    <main className="mx-auto max-w-[1600px] px-4 py-10 sm:px-6 sm:py-14">
       {/* Apresentação principal do projeto */}
-      <section className="grid items-center gap-10 md:grid-cols-2">
-
+      <section className="grid items-center gap-10 lg:grid-cols-[1.05fr_1fr] lg:gap-16">
         {/* Texto de apresentação e botão de criação */}
         <div>
-        {/* Identificação da temporada do campeonato */}
-          <span className="mb-4 inline-flex items-center gap-2 rounded-full bg-green-100 px-4 py-2 text-sm font-semibold text-green-800 dark:bg-green-900 dark:text-green-100">
-            <Trophy size={16} />
-            Brasileirão Série A — 2026
+          {/* Temporada: tarja inclinada, como nas transmissões */}
+          <span className="mb-5 inline-block -skew-x-12 bg-yellow-400 px-4 py-1">
+            <span className="display inline-block skew-x-12 text-xl text-canary-ink">
+              Série A 2026
+            </span>
           </span>
 
-          <h1 className="max-w-xl text-4xl font-extrabold leading-tight text-green-950 dark:text-white md:text-5xl">
-            Monte sua seleção do
-            <span className="text-green-700 dark:text-green-400">
-              {" "}Brasileirão.
-            </span>
+          <h1 className="display max-w-2xl text-[52px] text-green-950 dark:text-white sm:text-7xl lg:text-[88px]">
+            Monte sua seleção do Brasileirão.
           </h1>
 
-          <p className="mt-5 max-w-lg text-lg leading-relaxed text-gray-600 dark:text-gray-300">
-            Escolha os jogadores, defina a formação e monte sua seleção
-            com os melhores, piores, surpresas e decepções da temporada.
+          <p className="mt-6 max-w-md text-lg leading-relaxed text-gray-600 dark:text-gray-300">
+            Escolha os jogadores, defina a formação e monte sua seleção com os
+            melhores, piores, surpresas e decepções da temporada.
           </p>
 
           {/* Atalho para iniciar a criação de uma seleção */}
           <Link
             to="/criar"
-            className="mt-8 inline-flex items-center gap-3 rounded-xl bg-green-700 px-6 py-4 font-bold text-white shadow-lg shadow-green-900/15 transition hover:bg-green-800"
+            className="display mt-9 inline-block rounded-md bg-yellow-400 px-8 py-3.5 text-2xl text-canary-ink transition hover:bg-yellow-300"
           >
-            <Plus size={20} />
             Criar minha seleção
-            <ArrowRight size={18} />
           </Link>
         </div>
 
-        {/* Cartão ilustrativo que antecipa a futura tela de escalação */}
-        <div className="relative overflow-hidden rounded-3xl bg-green-800 p-6 text-white shadow-xl dark:bg-green-950">
+        {/* Prévia do campo */}
+        <div className="mx-auto w-full max-w-xl lg:max-w-none">
+          <div className="rounded-xl border border-gray-200 bg-white p-3 shadow-sm dark:border-gray-800 dark:bg-gray-950 sm:p-4">
+            <PitchSurface centerCircle="h-20 w-20 sm:h-28 sm:w-28">
+              <span className="display absolute left-3 top-3 z-10 -skew-x-12 bg-yellow-400 px-3 py-0.5 text-lg text-canary-ink">
+                <span className="inline-block skew-x-12">4-3-3</span>
+              </span>
 
-          {/* Elemento decorativo no canto superior direito */}
-          <div className="absolute -right-16 -top-16 h-56 w-56 rounded-full bg-green-700 opacity-60" />
-
-          <div className="relative">
-
-            {/* Cabeçalho do cartão */}
-            <div className="flex items-center justify-between">
-              <div>
-                <p className="text-sm font-medium text-green-200 dark:text-gray-300">
-                  SUA ESCALAÇÃO
-                </p>
-
-                <h2 className="mt-1 text-2xl font-extrabold dark:text-white">
-                  Brasileirão XI
-                </h2>
-              </div>
-
-              <Trophy size={32} className="text-green-200" />
-            </div>
-
-            {/* Representação visual provisória do campo */}
-            <div className="mt-8 rounded-2xl border-2 border-white/40 bg-green-700/70 p-5">
-
-              <div className="flex flex-col gap-5">
-
-                {/* Linha de ataque: três jogadores */}
-                <div className="grid grid-cols-3 gap-5">
-                  {["ATA", "ATA", "ATA"].map((position, index) => (
-                    <div
-                      key={`ata-${index}`}
-                      className="flex flex-col items-center gap-2"
-                    >
-                      <div className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-white bg-green-100 text-xs font-extrabold text-green-900">
-                        {position}
-                      </div>
-
-                      <span className="text-xs text-green-100">
-                        Jogador
-                      </span>
-                    </div>
-                  ))}
-                </div>
-
-                {/* Linha do meio-campo: três jogadores */}
-                <div className="grid grid-cols-3 gap-5">
-                  {["MEI", "MEI", "MEI"].map((position, index) => (
-                    <div
-                      key={`mei-${index}`}
-                      className="flex flex-col items-center gap-2"
-                    >
-                      <div className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-white bg-green-100 text-xs font-extrabold text-green-900">
-                        {position}
-                      </div>
-
-                      <span className="text-xs text-green-100">
-                        Jogador
-                      </span>
-                    </div>
-                  ))}
-                </div>
-
-                {/* Linha de defesa: quatro jogadores na mesma linha */}
-                <div className="grid grid-cols-4 gap-2">
-                  {["DEF", "DEF", "DEF", "DEF"].map((position, index) => (
-                    <div
-                      key={`def-${index}`}
-                      className="flex flex-col items-center gap-2"
-                    >
-                      <div className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-white bg-green-100 text-xs font-extrabold text-green-900">
-                        {position}
-                      </div>
-
-                      <span className="text-xs text-green-100">
-                        Jogador
-                      </span>
-                    </div>
-                  ))}
-                </div>
-
-                {/* Goleiro: permanece centralizado na parte inferior */}
-                <div className="mt-1 flex justify-center">
-                  <div className="flex flex-col items-center gap-2">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-white bg-yellow-400 text-xs font-extrabold text-green-950">
-                      GOL
-                    </div>
-
-                    <span className="text-xs text-green-100">
-                      Goleiro
-                    </span>
+              <div className="relative z-10 flex min-h-[420px] flex-col justify-around gap-4 px-3 py-10 sm:min-h-[560px]">
+                {previewLines.map((line, lineIndex) => (
+                  <div key={lineIndex} className="flex items-center justify-around">
+                    {line.map((label, index) => (
+                      <PreviewSlot key={`${label}-${index}`} label={label} />
+                    ))}
                   </div>
+                ))}
+
+                <div className="flex justify-center">
+                  <PreviewSlot label="GOL" goalkeeper />
                 </div>
-
               </div>
-            </div>
-
-            {/* Mensagem de encerramento do cartão */}
-            <p className="mt-4 text-center text-sm text-green-200 dark:text-gray-300">
-              Sua escalação começa aqui!
-            </p>
-
+            </PitchSurface>
           </div>
         </div>
       </section>
 
-      {/* Categorias disponíveis para criação de seleções */}
-      <section className="mt-20">
+      {/* Escolha da categoria da seleção */}
+      <section className="mt-20 sm:mt-24">
+        <h2 className="display text-4xl text-green-950 dark:text-white sm:text-5xl">
+          Escolha sua categoria
+        </h2>
 
-        {/* Título e descrição da seção */}
-        <div className="mb-8">
-          <h2 className="text-2xl font-extrabold text-green-950 dark:text-white">
-            Escolha sua categoria
-          </h2>
+        <p className="mt-2 text-gray-600 dark:text-gray-300">
+          Que tipo de seleção você quer montar?
+        </p>
 
-          <p className="mt-2 text-gray-600 dark:text-gray-300">
-            Que tipo de seleção você quer montar?
-          </p>
-        </div>
-
-        {/* Cartões das quatro categorias */}
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-8 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
           {categories.map((category) => (
             <Link
               key={category.id}
               to={`/criar?categoria=${category.id}`}
-              className="group rounded-2xl border border-green-100 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-green-300 hover:shadow-lg dark:border-gray-800 dark:bg-gray-900"
+              className={`group relative flex min-h-44 flex-col justify-between overflow-hidden rounded-lg p-6 transition hover:-translate-y-1 sm:min-h-64 ${categoryTone[category.id]}`}
             >
+              {/* Cartão do árbitro como marca d'água */}
+              <span
+                aria-hidden="true"
+                className="absolute -right-3 -top-4 h-28 w-20 rotate-12 rounded-md bg-black/15 sm:h-36 sm:w-24"
+              />
 
-              {/* Ícone ilustrativo da categoria */}
-              <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-green-100 text-green-700 transition group-hover:bg-green-700 group-hover:text-white dark:bg-green-950 dark:text-green-400">
-                <Users size={24} />
-              </div>
-
-              {/* Nome da categoria */}
-              <h3 className="text-lg font-bold text-green-950 dark:text-white">
+              <h3 className="display relative text-4xl sm:text-5xl">
                 {category.name}
               </h3>
 
-              {/* Descrição da categoria */}
-              <p className="mt-2 text-sm leading-relaxed text-gray-600 dark:text-gray-300">
-                {category.description}
-              </p>
+              <div className="relative">
+                <p className="max-w-[18rem] text-base leading-snug opacity-90">
+                  {category.description}
+                </p>
 
-              {/* Link visual para iniciar a montagem */}
-              <span className="mt-5 inline-flex items-center gap-2 text-sm font-bold text-green-700">
-                Montar seleção
-                <ArrowRight size={16} />
-              </span>
-
+                <span className="mt-4 inline-block border-b-2 border-current pb-0.5 text-sm font-bold">
+                  Montar seleção
+                </span>
+              </div>
             </Link>
           ))}
         </div>
       </section>
-
     </main>
   );
 }

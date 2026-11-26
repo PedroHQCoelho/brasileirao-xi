@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
-import { ArrowLeft, Plus, Save, Trash2, UserRound } from "lucide-react";
+import { ArrowLeft, Plus, Trash2, UserRound } from "lucide-react";
 
 import { categories } from "../data/categories";
 import { formations, goalkeeperSlot } from "../data/formations";
@@ -18,6 +18,7 @@ import { CoachSelector } from "../components/CoachSelector";
 import { MentionSelector } from "../components/MentionSelector";
 
 import { saveLineup } from "../services/lineupStorage";
+import { categoryTone } from "../data/categoryTone";
 
 interface FormationSlotEntry {
   id: string;
@@ -368,38 +369,44 @@ const mentionTitle =
       <div className="mb-8">
         <Link
           to="/"
-          className="mb-5 inline-flex items-center gap-2 text-sm font-semibold text-green-700 transition hover:text-green-900 dark:text-green-400 dark:hover:text-green-300"
+          className="mb-5 inline-flex items-center gap-2 text-sm font-semibold text-gray-500 transition hover:text-green-950 dark:text-gray-400 dark:hover:text-white"
         >
           <ArrowLeft size={17} />
           Voltar para o início
         </Link>
 
-        <span className="mb-2 block text-sm font-bold uppercase tracking-wide text-green-700 dark:text-green-400">
-          Brasileirão Série A — 2026
+        {/* Temporada na cor da categoria escolhida */}
+        <span
+          className={`mb-3 block w-fit -skew-x-12 px-3 py-0.5 ${
+            category ? categoryTone[category.id] : "bg-yellow-400 text-canary-ink"
+          }`}
+        >
+          <span className="display inline-block skew-x-12 text-lg">
+            Série A 2026
+          </span>
         </span>
 
-        <h1 className="text-3xl font-extrabold text-green-950 dark:text-white">
+        <h1 className="display text-5xl text-green-950 dark:text-white sm:text-6xl">
           {category ? category.name : "Criar minha seleção"}
         </h1>
 
-        <p className="mt-2 text-gray-600 dark:text-gray-300">
+        <p className="mt-3 max-w-xl text-gray-600 dark:text-gray-300">
           Monte sua equipe escolhendo uma formação e preenchendo as posições.
         </p>
 
         <button
           type="button"
           onClick={handleSaveLineup}
-          className="mt-5 inline-flex items-center gap-2 rounded-xl bg-green-700 px-5 py-3 font-bold text-white shadow-lg transition hover:bg-green-800 dark:bg-green-600 dark:hover:bg-green-500"
+          className="display mt-6 rounded-md bg-yellow-400 px-7 py-3 text-2xl text-canary-ink transition hover:bg-yellow-300"
         >
-          <Save size={19} />
           Salvar seleção
         </button>
       </div>
 
       {/* Escolha de categoria para quem entrou pelo botão principal. */}
       {!categoryFromUrl && (
-        <section className="mb-8 rounded-2xl border border-green-100 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
-          <h2 className="text-lg font-bold text-green-950 dark:text-white">
+        <section className="mb-8 rounded-xl border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+          <h2 className="display text-3xl text-green-950 dark:text-white">
             Escolha a categoria da sua seleção
           </h2>
 
@@ -417,22 +424,22 @@ const mentionTitle =
                   type="button"
                   aria-pressed={isSelected}
                   onClick={() => setSelectedCategoryId(item.id)}
-                  className={`rounded-xl border p-4 text-left transition ${
+                  className={`rounded-lg border p-4 text-left transition ${
                     isSelected
-                      ? "border-green-500 bg-green-50 ring-2 ring-green-500/20 dark:bg-green-950/40"
-                      : "border-gray-200 hover:border-green-400 hover:bg-green-50 dark:border-gray-700 dark:hover:bg-green-950/30"
+                      ? `border-transparent ${categoryTone[item.id]}`
+                      : "border-gray-200 hover:border-gray-400 dark:border-gray-700 dark:hover:border-gray-500"
                   }`}
                 >
-                  <span className="font-bold text-green-900 dark:text-white">
+                  <span className="display text-2xl text-green-950 dark:text-white">
                     {item.name}
                   </span>
 
-                  <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
+                  <p className="mt-2 text-sm opacity-80 text-gray-600 dark:text-gray-400">
                     {item.description}
                   </p>
 
                   {isSelected && (
-                    <span className="mt-3 block text-xs font-bold text-green-700 dark:text-green-400">
+                    <span className="mt-3 block text-xs font-bold">
                       ✓ Categoria selecionada
                     </span>
                   )}
@@ -444,29 +451,40 @@ const mentionTitle =
       )}
 
       <div className="grid items-start gap-6 lg:grid-cols-[320px_minmax(0,1fr)] xl:gap-8 2xl:grid-cols-[340px_minmax(0,1fr)]">
-        <aside className="space-y-5">
+        <aside className="contents lg:block lg:space-y-5">
+          {/* Painel 1: formação e contagem (no celular fica acima do campo) */}
+          <div className="order-1 divide-y divide-gray-200 overflow-hidden rounded-xl border border-gray-200 bg-white dark:divide-gray-800 dark:border-gray-800 dark:bg-gray-900">
           <FormationSelector
             selectedFormation={selectedFormation}
             onFormationChange={handleFormationChange}
           />
 
           {/* Contador considera apenas as vagas da formação atual e o goleiro. */}
-          <section className="rounded-2xl border border-green-100 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
-            <h2 className="font-bold text-green-950 dark:text-white">
+          <section className="p-5">
+            <h2 className="display text-2xl text-green-950 dark:text-white">
               Sua escalação
             </h2>
 
-            <p className="mt-2 text-2xl font-extrabold text-green-700 dark:text-green-400">
-              {startingPlayers.length} / 11
+            <p className="display tabular mt-1 text-5xl text-green-700 dark:text-white">
+              {startingPlayers.length}/11
             </p>
 
-            <div className="mt-3 h-2 overflow-hidden rounded-full bg-gray-100 dark:bg-gray-800">
-              <div
-                className="h-full rounded-full bg-green-600 transition-all"
-                style={{
-                  width: `${(startingPlayers.length / 11) * 100}%`,
-                }}
-              />
+            {/* Uma marca para cada titular */}
+            <div
+              role="img"
+              aria-label={`${startingPlayers.length} de 11 titulares escolhidos`}
+              className="mt-3 flex gap-1"
+            >
+              {Array.from({ length: 11 }, (_, index) => (
+                <span
+                  key={index}
+                  className={`h-3 flex-1 -skew-x-12 rounded-[2px] transition-colors ${
+                    index < startingPlayers.length
+                      ? "bg-green-600 dark:bg-yellow-400"
+                      : "bg-gray-200 dark:bg-gray-700"
+                  }`}
+                />
+              ))}
             </div>
 
             <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
@@ -476,9 +494,13 @@ const mentionTitle =
             </p>
           </section>
 
+          </div>
+
+          {/* Painel 2: reposicionar, treinador e menções (no celular fica abaixo do campo) */}
+          <div className="order-3 divide-y divide-gray-200 overflow-hidden rounded-xl border border-gray-200 bg-white dark:divide-gray-800 dark:border-gray-800 dark:bg-gray-900">
           {/* Área temporária para preservar jogadores fora da formação atual. */}
-          <section className="rounded-2xl border border-green-100 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
-            <h2 className="font-bold text-green-950 dark:text-white">
+          <section className="p-5">
+            <h2 className="display text-2xl text-green-950 dark:text-white">
               Jogadores a reposicionar
             </h2>
 
@@ -518,8 +540,8 @@ const mentionTitle =
             </div>
           </section>
 
-          <section className="rounded-2xl border border-green-100 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
-            <h2 className="font-bold text-green-950 dark:text-white">
+          <section className="p-5">
+            <h2 className="display text-2xl text-green-950 dark:text-white">
               Treinador
             </h2>
 
@@ -559,9 +581,9 @@ const mentionTitle =
             </button>
           </section>
 
-          <section className="rounded-2xl border border-green-100 bg-white p-5 dark:border-gray-800 dark:bg-gray-900">
+          <section className="p-5">
             <div className="mb-4">
-              <h2 className="font-bold text-green-950 dark:text-white">
+              <h2 className="display text-2xl text-green-950 dark:text-white">
                 {mentionTitle}
               </h2>
 
@@ -668,16 +690,19 @@ const mentionTitle =
               </button>
             </div>
           </section>
+          </div>
         </aside>
 
-        <section className="min-w-0">
+        <section className="order-2 min-w-0 lg:order-none">
           <div className="mb-4 flex items-center justify-between gap-3">
-            <h2 className="text-lg font-bold text-green-950 dark:text-white">
+            <h2 className="display text-3xl text-green-950 dark:text-white">
               Campo de jogo
             </h2>
 
-            <span className="rounded-lg bg-green-100 px-3 py-1.5 text-sm font-bold text-green-800 dark:bg-green-900 dark:text-green-100">
-              {formation.name}
+            <span className="-skew-x-12 bg-yellow-400 px-3 py-0.5 text-canary-ink">
+              <span className="display tabular inline-block skew-x-12 text-2xl">
+                {formation.name}
+              </span>
             </span>
           </div>
 

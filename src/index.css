@@ -3,11 +3,75 @@
 /* Configura o Tailwind para utilizar a classe .dark como referência do tema. */
 @custom-variant dark (&:where(.dark, .dark *));
 
+/* ========================================
+   IDENTIDADE VISUAL
+   Gramado, giz e canário: as cores do futebol.
+======================================== */
+
+@theme {
+  /* Fontes: condensada itálica para títulos e números (como nas
+     transmissões de TV) e uma família de leitura confortável para o texto. */
+  --font-sans: "Sofia Sans", "Sofia Sans Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Sofia Sans Extra Condensed", "Sofia Sans Extra Condensed Variable", "Arial Narrow", sans-serif;
+
+  /* "verde": o verde do gramado, sem o brilho de neon */
+  --color-green-50: #eaf6ee;
+  --color-green-100: #d3ebdb;
+  --color-green-200: #a8d6b8;
+  --color-green-300: #78bb92;
+  --color-green-400: #4a9e6b;
+  --color-green-500: #2a8650;
+  --color-green-600: #1f7a44;
+  --color-green-700: #17663a;
+  --color-green-800: #12502e;
+  --color-green-900: #0e3d24;
+  --color-green-950: #082417;
+
+  /* "cinza": neutros com um fundo verde-escuro, como o estádio à noite */
+  --color-gray-50: #f4f6f0;
+  --color-gray-100: #e9ede2;
+  --color-gray-200: #d6dccd;
+  --color-gray-300: #b9c3b0;
+  --color-gray-400: #94a399;
+  --color-gray-500: #6f8076;
+  --color-gray-600: #56665b;
+  --color-gray-700: #3a4a40;
+  --color-gray-800: #22342a;
+  --color-gray-900: #101c16;
+  --color-gray-950: #09130e;
+
+  /* amarelo canário (goleiro, destaques e botão principal) */
+  --color-yellow-300: #ffe066;
+  --color-yellow-400: #ffd21f;
+  --color-yellow-500: #f2be00;
+
+  /* Cores novas */
+  --color-chalk: #f1efe3;
+  --color-canary: #ffd21f;
+  --color-canary-ink: #10190f;
+
+  /* As quatro categorias: cada uma tem a sua cor, como os cartões do árbitro */
+  --color-cat-best: #1fa35a;
+  --color-cat-worst: #e5372c;
+  --color-cat-disappointments: #ffd21f;
+  --color-cat-surprises: #2f6bff;
+}
+
+/* Utilitário de título: condensada, itálica, caixa-alta (estilo transmissão) */
+@utility display {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 850;
+  text-transform: uppercase;
+  letter-spacing: -0.005em;
+  line-height: 0.95;
+}
+
 /* Configurações globais da aplicação */
 :root {
-  font-family: Inter, system-ui, sans-serif;
-  color: #17251c;
-  background: #f5f8f5;
+  font-family: var(--font-sans);
+  color: #0f1b14;
+  background: #f2f4ec;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -34,9 +98,25 @@ a {
 
 /* Aplica a cor de fundo e a transição global dos temas */
 body {
-  @apply bg-[#f5f8f5] text-[#17251c] transition-colors duration-300;
+  @apply bg-[#f2f4ec] text-[#0f1b14] transition-colors duration-300;
 }
 
 .dark body {
   @apply bg-gray-950 text-gray-100;
+}
+
+/* Números com a mesma largura (placar, contagem, formação) */
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Gramado: duas faixas de cortes alternados (mais escuro no tema escuro) */
+:root {
+  --pitch-a: #1f7a44;
+  --pitch-b: #1a6c3c;
+}
+
+.dark {
+  --pitch-a: #17663a;
+  --pitch-b: #135a33;
 }
