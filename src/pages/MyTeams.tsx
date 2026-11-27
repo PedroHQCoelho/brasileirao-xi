@@ -204,7 +204,7 @@ export function MyTeams() {
                         }
                         title="Excluir seleção"
                         aria-label={`Excluir ${lineup.name}`}
-                        className="rounded-lg p-2 text-red-500 transition hover:bg-red-50 dark:hover:bg-red-950/30"
+                        className="rounded-lg p-2 cursor-pointer text-red-500 transition hover:bg-red-50 dark:hover:bg-red-950/30"
                       >
                         <Trash2 size={19} />
                       </button>
@@ -281,7 +281,7 @@ export function MyTeams() {
                       <button
                         type="button"
                         onClick={() => setPreviewLineup(lineup)}
-                        className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-green-200 px-4 py-2.5 text-sm font-bold text-green-700 transition hover:bg-green-50 dark:border-green-900 dark:text-green-400 dark:hover:bg-green-950/40"
+                        className="inline-flex w-full cursor-pointer items-center justify-center gap-2 rounded-xl border border-green-200 px-4 py-2.5 text-sm font-bold text-green-700 transition hover:bg-green-50 dark:border-green-900 dark:text-green-400 dark:hover:bg-green-950/40"
                       >
                         <Eye size={17} />
                         Visualizar cartão

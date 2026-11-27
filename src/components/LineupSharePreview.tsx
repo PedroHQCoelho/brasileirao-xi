@@ -5,7 +5,6 @@ import {
   Copy,
   Download,
   LoaderCircle,
-  Image as ImageIcon,
   Share2,
   X,
 } from "lucide-react";
@@ -272,17 +271,7 @@ function canShareFile(file: File): boolean {
   }
 }
 
-function isMobileDevice(): boolean {
-  const userAgent = navigator.userAgent || "";
-  const isTouchMac =
-    navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1;
 
-  return /Android|iPhone|iPad|iPod/i.test(userAgent) || isTouchMac;
-}
-
-function getXIntentUrl(text: string): string {
-  return `https://x.com/intent/post?text=${encodeURIComponent(text)}`;
-}
 
 export function LineupSharePreview({
   lineup,
@@ -299,7 +288,6 @@ export function LineupSharePreview({
 
   const publicAppUrl = getPublicAppUrl();
   const isLocalAddress = isLocalUrl(publicAppUrl);
-  const isMobile = isMobileDevice();
 
   const caption = useMemo(() => {
     const categoryName =
@@ -455,115 +443,7 @@ export function LineupSharePreview({
     }
   }
 
-  async function handlePrepareInstagram() {
-    if (!pngFile) {
-      setShareError(
-        preparationError ?? "O cartão ainda está sendo preparado. Tente novamente em instantes."
-      );
-      return;
-    }
 
-    setShareError(null);
-    setShareMessage(null);
-    setCopySuccess(false);
-
-    // No computador, um site não consegue abrir diretamente o editor de Stories.
-    // Entregamos o PNG para que seja transferido ao celular e publicado no app.
-    if (!isMobile) {
-      try {
-        downloadFile(pngFile);
-        setExportSuccess(true);
-        setShareMessage(
-          "Imagem baixada! Para publicar nos Stories, envie este PNG para o celular, abra o Instagram, toque em Seu story e escolha a imagem na galeria. O Instagram para computador não oferece o fluxo de publicação de Stories."
-        );
-      } catch (error) {
-        setShareError(getErrorMessage(error));
-      }
-      return;
-    }
-
-    if (canShareFile(pngFile)) {
-      try {
-        await navigator.share({
-          files: [pngFile],
-          title: `${lineup.name} • Brasileirão XI`,
-        });
-        setShareMessage(
-          "Menu de compartilhamento aberto. Se Instagram Stories aparecer entre os destinos, selecione-o. Caso contrário, salve a imagem e escolha-a pela galeria do Instagram."
-        );
-        return;
-      } catch (error) {
-        if (error instanceof DOMException && error.name === "AbortError") return;
-        console.error("Compartilhamento para Instagram:", error);
-      }
-    }
-
-    try {
-      downloadFile(pngFile);
-      setExportSuccess(true);
-      setShareMessage(
-        "A imagem foi baixada. Abra o Instagram no celular, crie um Story e selecione o PNG na galeria."
-      );
-    } catch (error) {
-      setShareError(getErrorMessage(error));
-    }
-  }
-
-  async function handleShareOnX() {
-    if (!pngFile) {
-      setShareError(
-        preparationError ?? "O cartão ainda está sendo preparado. Tente novamente em instantes."
-      );
-      return;
-    }
-
-    setShareError(null);
-    setShareMessage(null);
-    setCopySuccess(false);
-
-    // Em telemóveis, tentamos enviar o PNG pelo menu nativo do sistema.
-    if (isMobile && canShareFile(pngFile)) {
-      try {
-        await navigator.share({
-          files: [pngFile],
-          title: `${lineup.name} • Brasileirão XI`,
-          text: caption,
-        });
-        setShareMessage(
-          "Menu de compartilhamento aberto com a imagem e o texto. Escolha o X, caso esteja disponível. Se o X não aceitar o anexo, salve o PNG e anexe-o manualmente em uma publicação."
-        );
-        return;
-      } catch (error) {
-        if (error instanceof DOMException && error.name === "AbortError") return;
-        console.error("Compartilhamento para X:", error);
-      }
-    }
-
-    // No computador, abre o compositor web, baixa o PNG e copia o texto.
-    // O X exige que a imagem seja anexada pelo próprio utilizador.
-    const xWindow = window.open(getXIntentUrl(caption), "_blank");
-    if (xWindow) {
-      xWindow.opener = null;
-    }
-
-    try {
-      downloadFile(pngFile);
-      setExportSuccess(true);
-      await copyTextToClipboard(caption);
-      setCopySuccess(true);
-
-      setShareMessage(
-        xWindow
-          ? "O X foi aberto com o texto preenchido e o PNG foi baixado. Na publicação do X, clique no botão de imagem, selecione o arquivo baixado e publique."
-          : "O PNG foi baixado e a legenda foi copiada. O navegador bloqueou a abertura automática do X; abra x.com, crie uma publicação, anexe o PNG e cole o texto."
-      );
-    } catch (error) {
-      console.error("Preparação de publicação no X:", error);
-      setShareError(
-        "O PNG foi baixado e o X foi aberto, mas não foi possível copiar a legenda. Use o botão Copiar legenda e link."
-      );
-    }
-  }
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6">
@@ -605,9 +485,6 @@ export function LineupSharePreview({
         </div>
 
         <div className="mt-5 flex flex-col gap-3">
-          <p className="text-center text-xs text-gray-500 dark:text-gray-400">
-            PNG • 1080 × 1350 pixels • Proporção 4:5
-          </p>
 
           {isPreparingFile && (
             <p className="flex items-center justify-center gap-2 text-sm text-gray-500 dark:text-gray-400">
@@ -680,7 +557,7 @@ export function LineupSharePreview({
             type="button"
             onClick={handleShareCard}
             disabled={isPreparingFile || !pngFile}
-            className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-green-700 px-5 py-3 font-bold text-white transition hover:bg-green-800 disabled:cursor-wait disabled:opacity-60 dark:bg-green-600 dark:hover:bg-green-500"
+            className="inline-flex w-full cursor-pointer items-center justify-center gap-2 rounded-xl bg-green-700 px-5 py-3 font-bold text-white transition hover:bg-green-800 disabled:cursor-wait disabled:opacity-60 dark:bg-green-600 dark:hover:bg-green-500"
           >
             {isPreparingFile ? (
               <>
@@ -690,47 +567,20 @@ export function LineupSharePreview({
             ) : (
               <>
                 <Share2 size={19} />
-                Compartilhar cartão
+                Compartilhar
               </>
             )}
           </button>
 
-          <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
-            <button
-              type="button"
-              onClick={handlePrepareInstagram}
-              disabled={isPreparingFile || !pngFile}
-              className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-pink-500 px-4 py-3 text-sm font-bold text-pink-700 transition hover:bg-pink-50 disabled:cursor-wait disabled:opacity-60 dark:border-pink-400 dark:text-pink-300 dark:hover:bg-pink-950/30"
-            >
-              <ImageIcon size={19} />
-              {isMobile ? "Compartilhar imagem para Stories" : "Baixar imagem para Stories"}
-            </button>
-
-            <button
-              type="button"
-              onClick={handleShareOnX}
-              disabled={isPreparingFile || !pngFile}
-              className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-gray-800 px-4 py-3 text-sm font-bold text-gray-900 transition hover:bg-gray-100 disabled:cursor-wait disabled:opacity-60 dark:border-gray-300 dark:text-white dark:hover:bg-gray-800"
-            >
-              <span aria-hidden="true" className="text-lg font-black leading-none">𝕏</span>
-              {isMobile ? "Compartilhar imagem no X" : "Preparar publicação no X"}
-            </button>
-          </div>
-
-          <p className="text-center text-xs leading-relaxed text-gray-500 dark:text-gray-400">
-            {isMobile
-              ? "No celular, o menu nativo pode oferecer Instagram ou X como destinos. A disponibilidade depende dos aplicativos instalados. Se um deles não aparecer, use o PNG baixado e selecione-o pela galeria do aplicativo."
-              : "No computador, o X será aberto com a legenda pronta e o PNG será baixado para anexação manual. Para publicar nos Stories, transfira o PNG para o celular e escolha-o na galeria do Instagram."}
-          </p>
 
           <button
             type="button"
             onClick={handleExportPng}
             disabled={isPreparingFile || !pngFile}
-            className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-green-700 px-5 py-3 font-bold text-green-800 transition hover:bg-green-50 disabled:cursor-wait disabled:opacity-60 dark:border-green-500 dark:text-green-300 dark:hover:bg-green-950/40"
+            className="inline-flex w-full cursor-pointer items-center justify-center gap-2 rounded-xl border border-green-700 px-5 py-3 font-bold text-green-800 transition hover:bg-green-50 disabled:cursor-wait disabled:opacity-60 dark:border-green-500 dark:text-green-300 dark:hover:bg-green-950/40"
           >
             <Download size={19} />
-            Baixar cartão em PNG
+            Download
           </button>
         </div>
       </section>
